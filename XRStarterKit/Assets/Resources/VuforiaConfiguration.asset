@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AYV6dCv/////AAABmTRlAITjbEoahdVEDJA6M4xspq4ECX8IPXBVb3GVcXb7yh8UIRV3F9FCqcllPxS0mOWXT4ZUC5cWDDTRgvglVWl+YUtZU4nIGG9ppwV+JzD/7kil6qiMgRwH++/m1p+E6mURZpn6JkHGMUn+5ylFqGh38tvso8Vn0PgzDm5fBo2RCQJFJ29dpkC/9KlyOX6c7d+WwWuU8/JIb8+9tz3Xngr3oapsAs1qkC2S25ssnOSoHyIJ7+enuHGGfnYfDkQefYaMDYqKojl3SL2zNhBFO1rdHzQq8ppNWVE3UHA8irHRRZ/jp97QDWp+Pahh5TLJ8tessn1a3WqHBlWjCxAlfSoImmM3SDpV8rTwHVmKGwJt
     ufoLicenseKey: YOURKEYHERE
     delayedInitialization: 0
     cameraFocusModeSetting: 2
@@ -23,9 +23,8 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 1.0.0
     version: 10.13.3
-    eulaAcceptedVersions: 
+    eulaAcceptedVersions: '{"Values":["10.13"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -44,7 +43,7 @@ MonoBehaviour:
     thirdPartyARCoreClientDetected: 0
   playmode:
     mSequencePath: 
-    playModeType: 0
+    playModeType: 1
   webcam:
     renderTextureLayer: 30
   packageInformation:
