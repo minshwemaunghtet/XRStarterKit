@@ -475,6 +475,7 @@ GameObject:
   - component: {fileID: 1482300895}
   - component: {fileID: 1482300894}
   - component: {fileID: 1482300896}
+  - component: {fileID: 1482300897}
   m_Layer: 0
   m_Name: Normcore
   m_TagString: Untagged
@@ -525,8 +526,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e2dc752636f488459942f28633c0af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnOnConnectObjects:
-  - {fileID: 5210672698556527716, guid: e6a305509e892ca4a86fd1fb96b2efa7, type: 3}
+  _spawnOnConnectObjects: []
+--- !u!114 &1482300897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482300893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b6ae53fe1e66d429cc41bbf5b29cb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localAvatarPrefab: {fileID: 1435502846325602, guid: 132fa799030920d4cb15dfab7ec5c45f, type: 3}
+  _localPlayer:
+    root: {fileID: 0}
+    head: {fileID: 738403788}
+    leftHand: {fileID: 0}
+    rightHand: {fileID: 0}
 --- !u!1001 &5409645492772494868
 PrefabInstance:
   m_ObjectHideFlags: 0
