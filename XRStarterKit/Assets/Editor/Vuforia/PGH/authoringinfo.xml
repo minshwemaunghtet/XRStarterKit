@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.1" bbox="-11.0176 -3.0756 -24.9761 2.4934 2.7586 4.6304" targetId="67b6ff147aa4431bb468a00bf115ca10" name="PGH" pathAuthoring="67b6ff147aa4431bb468a00bf115ca10_authoring.glb" pathOcclusion="67b6ff147aa4431bb468a00bf115ca10_occlusion.3dt" pathNavMesh="67b6ff147aa4431bb468a00bf115ca10_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>
