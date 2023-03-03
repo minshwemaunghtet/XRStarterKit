@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYV6dCv/////AAABmTRlAITjbEoahdVEDJA6M4xspq4ECX8IPXBVb3GVcXb7yh8UIRV3F9FCqcllPxS0mOWXT4ZUC5cWDDTRgvglVWl+YUtZU4nIGG9ppwV+JzD/7kil6qiMgRwH++/m1p+E6mURZpn6JkHGMUn+5ylFqGh38tvso8Vn0PgzDm5fBo2RCQJFJ29dpkC/9KlyOX6c7d+WwWuU8/JIb8+9tz3Xngr3oapsAs1qkC2S25ssnOSoHyIJ7+enuHGGfnYfDkQefYaMDYqKojl3SL2zNhBFO1rdHzQq8ppNWVE3UHA8irHRRZ/jp97QDWp+Pahh5TLJ8tessn1a3WqHBlWjCxAlfSoImmM3SDpV8rTwHVmKGwJt
+    vuforiaLicenseKey: AWsNjSf/////AAABmZZ+DU7o0kedvetl30QZpqp9q3mWNvG0rXejCpXUG75f1i/k5yKDOkwMdOqMo+fYY63nSXsYEjJq8k70EnRg9Oi/6DazVE7Mtcgbqda6Rsm+muErFdp55q++w/W4d6NMkEJzWUCyahnpjvfeDnc9009w+itqglY8sbMSTo+9qo12XWL4V7QD9GmAgbRV6WHJQP/XHHCBNbiS0bLkz4f+JxvIeL8w1V+g73qgukhQP8D4fKlbG3zIT6ydHHtcMpXJF5Tv0ZfJvrAdE/sSjonkLTwnQHbfcdqrCpnMr+1+9/z69eJxB9bs8dQypanc+quccu3jc5w0ptQh6IzWw+qbAm1Gqww7soDlXWGj2dXeqsfR
     ufoLicenseKey: YOURKEYHERE
     delayedInitialization: 0
     cameraFocusModeSetting: 2
