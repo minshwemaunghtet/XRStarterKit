@@ -22,7 +22,6 @@ public class InputManager : ARBaseGestureInteractable
 
     private GameObject selectedObject; // Store the selected object from ButtonManager
 
-    // Start is called before the first frame update
     void Start()
     {
     }
