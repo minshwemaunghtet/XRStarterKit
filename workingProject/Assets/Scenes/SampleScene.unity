@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3075,3 +3075,72 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &7038531181331743966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 752.61475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 37.899414
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 699.8091
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293045, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038531180198293047, guid: 40c66dd51228b06408d348b835004811,
+        type: 3}
+      propertyPath: m_Name
+      value: FenceSpawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40c66dd51228b06408d348b835004811, type: 3}
