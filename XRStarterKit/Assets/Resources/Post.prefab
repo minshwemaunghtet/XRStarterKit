@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6651804959462976732}
   - component: {fileID: 3247019864870189163}
   - component: {fileID: 4323344831440817816}
-  - component: {fileID: -3785982128273620401}
-  - component: {fileID: 1620675509964254018}
+  - component: {fileID: 4304320322802448529}
+  - component: {fileID: 8378975788721471946}
   m_Layer: 0
   m_Name: Post
   m_TagString: Untagged
@@ -99,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-3785982128273620401
+--- !u!114 &4304320322802448529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,9 +120,9 @@ MonoBehaviour:
   _sceneViewDestroyWhenLastClientLeaves: 1
   _components:
   - componentID: 1
-    component: {fileID: 1620675509964254018}
+    component: {fileID: 8378975788721471946}
   _childViews: []
---- !u!114 &1620675509964254018
+--- !u!114 &8378975788721471946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
