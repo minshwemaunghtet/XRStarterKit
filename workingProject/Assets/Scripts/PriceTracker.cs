@@ -46,6 +46,29 @@ public class PriceTracker : ScriptableObject
     public decimal COST_LABOR_FENCE_POST = 12.00m;
 
 
+    //calculate single fence object cost price 
+    // def: single fence obj is the whole new fence obj created after placing down desired posts at desired lengths
+    // update:
+    // - total fence price
+    // - total price
+    // - TotalFenceDistanceAbsolute
+    // - numFence
+    // - numFencePosts
+    // - TotalPriceFence
+    // Variables:
+    // fence_total_distance: the total distance sum of all distance between all posts in a single fence obj
+    // num_fence_posts: number of fence post (int) in a single fence obj
+    public decimal CalculateFenceCost(float fence_total_distance, int num_fence_posts){
+        decimal cost = 0;
+        // cost of material fence distance + num fence posts
+        decimal cost_materials = (COST_MATERIALS_FENCE_ONE_METER * (decimal)fence_total_distance) + (COST_MATERIALS_FENCE_POST * num_fence_posts);
+
+        // cost of labor fence distance + num fence posts
+        decimal cost_labor = (COST_LABOR_FENCE_ONE_METER * (decimal)fence_total_distance) + (COST_LABOR_FENCE_POST * num_fence_posts);
+
+        cost = cost_materials + cost_labor;
+        return cost;
+    }
 
 
 
