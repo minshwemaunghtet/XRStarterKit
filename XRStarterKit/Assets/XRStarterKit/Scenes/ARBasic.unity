@@ -639,7 +639,7 @@ MonoBehaviour:
   mDataSetPath: Vuforia/pgh233.xml
   AuthoringModelPath: f17357c28a1745a98aea55d0c69970a4_authoring.glb
   OcclusionModelPath: f17357c28a1745a98aea55d0c69970a4_occlusion.3dt
-  ClipHeight: 4.0065947
+  ClipHeight: -2.617495
   mSize: {x: 0, y: 0, z: 0}
   mBoundingBox:
     m_Center: {x: 0, y: 0, z: 0}
@@ -665,7 +665,6 @@ Transform:
   m_Children:
   - {fileID: 1380044201}
   - {fileID: 705507995}
-  - {fileID: 1295485466}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -687,55 +686,6 @@ MonoBehaviour:
   mDatasetName: Vuforia/pgh233.xml
   mCastedBehaviour: {fileID: 844946313}
   mType: 1
---- !u!1 &1295485465
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1295485466}
-  - component: {fileID: 1295485467}
-  m_Layer: 0
-  m_Name: Runtime Mesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1295485466
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295485465}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 844946314}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1295485467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295485465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 773099159, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mInitializedInEditor: 1
-  mHasCollision: 0
-  mDisplayMaterial: {fileID: 2068462895}
-  mSourceBehaviour: {fileID: 844946313}
-  mDestroyMeshOnCaptureStop: 1
 --- !u!4 &1380044201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5409645494143980477, guid: 76d8fdcd99d83ed41896fd74fe6d5ade, type: 3}
@@ -926,31 +876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &2068462895
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Custom/CameraDiffuse
-  m_Shader: {fileID: 4800000, guid: 1a890b01c666b2a4dbdfe1eb6a476078, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs: []
-    m_Ints: []
-    m_Floats: []
-    m_Colors:
-    - _MaterialColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &5409645492772494868
 PrefabInstance:
   m_ObjectHideFlags: 0

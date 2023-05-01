@@ -168,7 +168,7 @@ public class FenceSpawner : MonoBehaviour
     private GameObject lastFencePost = null;
     private Realtime _realtime;
     public PriceTracker tracker;
-      public TMP_InputField fenceCountInput;
+    public TMP_InputField fenceCountInput;
 
     private bool isSpawningEnabled = false;
 
@@ -206,19 +206,19 @@ public class FenceSpawner : MonoBehaviour
         }
     }
 
-public void SetMaxFencePosts(string input)
-{
-    int numFences = 0;
-    if (int.TryParse(input, out numFences) && numFences > 0)
+    public void SetMaxFencePosts(string input)
     {
-        maxFencePosts = numFences;
-        fenceCountInput.gameObject.SetActive(false);
+        int numFences = 0;
+        if (int.TryParse(input, out numFences) && numFences > 0)
+        {
+            maxFencePosts = numFences;
+            fenceCountInput.gameObject.SetActive(false);
+        }
+        else
+        {
+            Debug.LogError("Invalid input for number of fences");
+        }
     }
-    else
-    {
-        Debug.LogError("Invalid input for number of fences");
-    }
-}
 
     public void PromptForFenceCount()
     {
@@ -229,38 +229,46 @@ public void SetMaxFencePosts(string input)
 
     void Update()
     {
-        if (isSpawningEnabled && Input.GetMouseButtonDown(0) && fencePostCount < maxFencePosts && !EventSystem.current.IsPointerOverGameObject())
+        if (isSpawningEnabled && Input.touchCount > 0 && fencePostCount < maxFencePosts)
         {
-            Vector3 clickPosition = Input.mousePosition;
-            Ray ray = Camera.main.ScreenPointToRay(clickPosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
+            bool isTouchOverUI = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
+            if (!isTouchOverUI)
             {
-                GameObject newFencePost = Realtime.Instantiate(fencePostPrefab.name, hit.point, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                tracker.numThingsAdded++;
-                Debug.Log(tracker.numThingsAdded);
-                MeshRenderer fencePostRenderer = newFencePost.GetComponent<MeshRenderer>();
-                if (fencePostRenderer != null)
+                Touch touch = Input.GetTouch(0);
+                if (touch.phase == TouchPhase.Began)
                 {
-                    fencePostRenderer.material = fenceMaterial;
-                }
-
-                fencePostCount++;
-                if (lastFencePost != null)
-                {
-                    Vector3 midPoint = (lastFencePost.transform.position + newFencePost.transform.position) / 2f;
-                    GameObject newFenceConnection = Realtime.Instantiate(fenceConnectionPrefab.name, midPoint, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                    Vector3 direction = lastFencePost.transform.position - newFencePost.transform.position;
-                    newFenceConnection.transform.rotation = Quaternion.LookRotation(direction);
-                    float distance = Vector3.Distance(lastFencePost.transform.position, newFencePost.transform.position);
-                    newFenceConnection.transform.localScale = new Vector3(0.2f, 0.4f, distance);
-                    MeshRenderer fenceConnectionRenderer = newFenceConnection.GetComponent<MeshRenderer>();
-                    if (fenceConnectionRenderer != null)
+                    Vector3 touchPosition = touch.position;
+                    Ray ray = Camera.main.ScreenPointToRay(touchPosition);
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
                     {
-                        fenceConnectionRenderer.material = fenceMaterial;
+                        GameObject newFencePost = Realtime.Instantiate(fencePostPrefab.name, hit.point, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
+                        tracker.numThingsAdded++;
+                        Debug.Log(tracker.numThingsAdded);
+                        MeshRenderer fencePostRenderer = newFencePost.GetComponent<MeshRenderer>();
+                        if (fencePostRenderer != null)
+                        {
+                            fencePostRenderer.material = fenceMaterial;
+                        }
+
+                        fencePostCount++;
+                        if (lastFencePost != null)
+                        {
+                            Vector3 midPoint = (lastFencePost.transform.position + newFencePost.transform.position) / 2f;
+                            GameObject newFenceConnection = Realtime.Instantiate(fenceConnectionPrefab.name, midPoint, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
+                            Vector3 direction = lastFencePost.transform.position - newFencePost.transform.position;
+                            newFenceConnection.transform.rotation = Quaternion.LookRotation(direction);
+                            float distance = Vector3.Distance(lastFencePost.transform.position, newFencePost.transform.position);
+                            newFenceConnection.transform.localScale = new Vector3(0.2f, 0.4f, distance);
+                            MeshRenderer fenceConnectionRenderer = newFenceConnection.GetComponent<MeshRenderer>();
+                            if (fenceConnectionRenderer != null)
+                            {
+                            fenceConnectionRenderer.material = fenceMaterial;
+                            }
+                        }
+                        lastFencePost = newFencePost;
                     }
                 }
-                lastFencePost = newFencePost;
             }
         }
     }
