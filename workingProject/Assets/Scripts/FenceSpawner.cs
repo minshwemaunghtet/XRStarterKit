@@ -49,6 +49,9 @@ public class FenceSpawner : MonoBehaviour
             // Sets the last fence point as the new one
             lastFencePost = newFencePost;
         }
-        // TODO: update pricetracker object to reflect fence creation
+
+        
+
+
     }
 }

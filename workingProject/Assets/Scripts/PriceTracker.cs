@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+[CreateAssetMenu(fileName = "NewPriceTracker", menuName = "Custom/PriceTracker")]
 
 public class PriceTracker : ScriptableObject
 {
     //totals (will be updated by any new object instantiation)
-    public float TotalFenceDistanceAbsolute = 0; // absolute distance of fences in play
     public int TotalNumObjects = 0; /// number of objects total in play currently
     public decimal TotalPrice = 0; /// full total price for the entire project based on all objects in play currently
     
@@ -20,6 +20,7 @@ public class PriceTracker : ScriptableObject
     public decimal TotalPriceFence = 0; 
 
 
+
     // counts
     /// will be updated by any new object instantiation of the appropriate type
     public int numChairs = 0;
@@ -29,6 +30,7 @@ public class PriceTracker : ScriptableObject
     public int numDecks =0;
     public int numFence = 0; // number of actual full fences placed down
     public int numFencePosts = 0; // number of all posts on all fences
+    public float TotalFenceDistanceAbsolute = 0; // absolute distance of fences in play
 
 
     // material and labor costs
@@ -69,6 +71,83 @@ public class PriceTracker : ScriptableObject
         cost = cost_materials + cost_labor;
         return cost;
     }
+
+    // calculate non-fence object cost
+    public decimal CalculateBasicObjectCost(string resourceType){
+        decimal cost =0;
+
+        if (resourceType == "Deck") {cost = COST_MATERIALS_DECK + COST_LABOR_DECK;}
+
+        if (resourceType == "Bench") {cost = COST_MATERIALS_BENCH;}
+
+        if (resourceType == "Chair"){cost = COST_MATERIALS_CHAIR;}
+
+        if (resourceType == "Table"){cost = COST_MATERIALS_TABLE;}
+
+        if (resourceType == "Bush"){cost = COST_MATERIALS_BUSH;}
+
+        return cost;
+    }
+    // update non-fence object count
+    public void UpdateBasicObjectCount(string resourceType){
+
+        if (resourceType == "Deck") {numDecks++;}
+
+        if (resourceType == "Bench") {numBench++;}
+
+        if (resourceType == "Chair"){numChairs++;}
+
+        if (resourceType == "Table"){numTables++;}
+
+        if (resourceType == "Bush"){numBush++;}
+    }
+    // update basic object (non fence) cumulative
+    public void UpdateBasicObjectTotalPrice(string resourceType, decimal totalPrice){
+
+        if (resourceType == "Deck") {TotalPriceDecks+=totalPrice;}
+
+        if (resourceType == "Bench") {TotalPriceBench+=totalPrice;}
+
+        if (resourceType == "Chair"){TotalPriceChairs+=totalPrice;}
+
+        if (resourceType == "Table"){TotalPriceTables+=totalPrice;}
+
+        if (resourceType == "Bush"){TotalPriceBush+=totalPrice;}
+    }
+
+
+    public void PriceTrackerUpdateMain(string ResourceType, int numFencePosts_current_obj=0, float MeterDistance_current_fence_obj= 0) {
+
+        decimal object_cost = 0;
+
+        // global updates
+        TotalNumObjects++;
+
+        if (ResourceType == "Fence") {//update fence count, fence tot distance, total fence price, total fence posts
+            
+            // guard warning clause
+            if (numFencePosts_current_obj == 0) {Debug.LogWarning("Resource Type passed as 'Fence' but number of Fence Posts is 0.");}
+            if (MeterDistance_current_fence_obj == 0) {Debug.LogWarning("Resource Type passed as 'Fence' but distance of the fence object is 0.");}
+
+            // update fence specific values
+            numFencePosts+=numFencePosts_current_obj;
+            numFence+=1;
+            TotalFenceDistanceAbsolute+=MeterDistance_current_fence_obj;
+            // get and update cost fence obj
+            object_cost = CalculateFenceCost(MeterDistance_current_fence_obj, numFencePosts_current_obj);
+            TotalPriceFence += object_cost;
+
+        }
+        else // not resource type Fence
+        {
+            UpdateBasicObjectCount(ResourceType);
+            object_cost = CalculateBasicObjectCost(ResourceType);
+            UpdateBasicObjectTotalPrice(ResourceType,object_cost);
+        }
+
+        TotalPrice += object_cost;
+    }
+
 
 
 

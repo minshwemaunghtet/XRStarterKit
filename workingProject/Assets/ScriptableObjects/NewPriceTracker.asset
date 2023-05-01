@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d9d2c09fb745e1a9ed32ca4f1491f, type: 3}
+  m_Name: NewPriceTracker
+  m_EditorClassIdentifier: 
+  TotalNumObjects: 0
+  numChairs: 0
+  numTables: 0
+  numBench: 0
+  numBush: 0
+  numDecks: 0
+  numFence: 0
+  numFencePosts: 0
+  TotalFenceDistanceAbsolute: 0
