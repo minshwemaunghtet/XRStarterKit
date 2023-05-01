@@ -11,6 +11,7 @@ public class FenceSpawner : MonoBehaviour
     private GameObject lastFencePost = null;
 
     void Update(){
+        float TotalFenceDistance = 0; // used to get full length of one fence obj
         if (Input.GetMouseButtonDown(0) && fencePostCount < maxFencePosts){
             // Currently gets the position of the mouse click... need to update this to the area target
             Vector3 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -24,14 +25,21 @@ public class FenceSpawner : MonoBehaviour
             }
             fencePostCount++;
 
-            // If this is not the first fence post ceate a connection to the last one
+            // If this is not the first fence post create a connection to the last one
             if (lastFencePost != null){
                 Vector3 midPoint = (lastFencePost.transform.position + newFencePost.transform.position) / 2f;
+                
                 GameObject newFenceConnection = Instantiate(fenceConnectionPrefab, midPoint, Quaternion.identity);
+                
                 Vector3 direction = lastFencePost.transform.position - newFencePost.transform.position;
+                
                 newFenceConnection.transform.rotation = Quaternion.LookRotation(direction);
+                
                 float distance = Vector3.Distance(lastFencePost.transform.position, newFencePost.transform.position);
+
+                TotalFenceDistance += distance; // every time the distance is calculated between two fence posts update the total fence distance for that fence object
                 newFenceConnection.transform.localScale = new Vector3(0.2f, .4f, distance);
+                
                 MeshRenderer fenceConnectionRenderer = newFenceConnection.GetComponent<MeshRenderer>();
                 if (fenceConnectionRenderer != null){
                     fenceConnectionRenderer.material = fenceMaterial;
@@ -41,5 +49,6 @@ public class FenceSpawner : MonoBehaviour
             // Sets the last fence point as the new one
             lastFencePost = newFencePost;
         }
+        // TODO: update pricetracker object to reflect fence creation
     }
 }
