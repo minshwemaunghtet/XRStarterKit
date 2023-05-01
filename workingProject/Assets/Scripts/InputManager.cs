@@ -42,7 +42,6 @@ public class InputManager : ARBaseGestureInteractable
         {
             return;
         }
-
         if (selectedObject == null)
         {
             Debug.LogWarning("Selected object is null. Please select an object first.");
