@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -499,20 +499,20 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 1
-  mTrackableName: pgh233
+  mTrackableName: my_hall
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/pgh233.xml
-  AuthoringModelPath: f17357c28a1745a98aea55d0c69970a4_authoring.glb
-  OcclusionModelPath: f17357c28a1745a98aea55d0c69970a4_occlusion.3dt
-  ClipHeight: 4.0065947
+  mDataSetPath: Vuforia/my_hall.xml
+  AuthoringModelPath: 739c2292714f4c3181c8b3789c1f31fc_authoring.glb
+  OcclusionModelPath: 739c2292714f4c3181c8b3789c1f31fc_occlusion.3dt
+  ClipHeight: 0.18991001
   mSize: {x: 0, y: 0, z: 0}
   mBoundingBox:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
-  mNavMeshModelPath: f17357c28a1745a98aea55d0c69970a4_navmesh.glb
+  mNavMeshModelPath: 739c2292714f4c3181c8b3789c1f31fc_navmesh.glb
   mVersion: 5.1
-  mBBoxMin: {x: -10.8702, y: -2.3164, z: -6.5373}
-  mBBoxMax: {x: 8.3233, y: 3.7055, z: 11.6184}
+  mBBoxMin: {x: -5.8244, y: -3.0926, z: -5.9113}
+  mBBoxMax: {x: 1.2232, y: 0.0336, z: 6.5397}
   mModelMesh: {fileID: 0}
   mRequiresExternalPositions: 0
   mPreview: {fileID: 844946315}
@@ -547,8 +547,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 844946313}
   mHiddenRoot: {fileID: 0}
-  mTargetName: pgh233
-  mDatasetName: Vuforia/pgh233.xml
+  mTargetName: my_hall
+  mDatasetName: Vuforia/my_hall.xml
   mCastedBehaviour: {fileID: 844946313}
   mType: 1
 --- !u!114 &1350807890 stripped
