@@ -176,10 +176,16 @@ public class FenceSpawner : MonoBehaviour
         fenceCountInput.gameObject.SetActive(false);
     }
     public void EnableSpawning()
-    {
-        fenceCountInput.gameObject.SetActive(true);
-        PromptForFenceCount();
-        isSpawningEnabled = true;
+    {   
+        if(isSpawningEnabled){
+            DisableSpawning();
+        }else{
+            isSpawningEnabled = true;
+            fenceCountInput.gameObject.SetActive(true);
+            PromptForFenceCount();
+    
+        }
+
     }
 
     public void DisableSpawning()
