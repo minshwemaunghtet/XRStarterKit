@@ -9,6 +9,7 @@ using TMPro;
 public class PlaceObject : MonoBehaviour
 {
     public LayerMask groundLayer;
+    public LayerMask objectLayer;
     public GameObject prefab;
     public PriceTracker tracker;
     private Realtime _realtime;
@@ -40,6 +41,14 @@ public class PlaceObject : MonoBehaviour
                     Vector3 touchPosition = touch.position;
                     Ray ray = Camera.main.ScreenPointToRay(touchPosition);
                     RaycastHit hit;
+
+                    // Check if the raycast hits the Object layer first
+                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, objectLayer))
+                    {
+                        Debug.Log("Hit Object layer");
+                    }
+
+                    // Then check if it hits the Ground layer
                     if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
                     {
                         // Adjust the y-coordinate of the hit point by adding half of the height of the object
