@@ -234,48 +234,52 @@ public class FenceSpawner : MonoBehaviour
     }
 
     void Update()
+{
+    if (isSpawningEnabled && Input.touchCount > 0 && fencePostCount < maxFencePosts)
     {
-        if (isSpawningEnabled && Input.touchCount > 0 && fencePostCount < maxFencePosts)
+        bool isTouchOverUI = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
+        if (!isTouchOverUI)
         {
-            bool isTouchOverUI = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
-            if (!isTouchOverUI)
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
             {
-                Touch touch = Input.GetTouch(0);
-                if (touch.phase == TouchPhase.Began)
+                Vector3 touchPosition = touch.position;
+                Ray ray = Camera.main.ScreenPointToRay(touchPosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
                 {
-                    Vector3 touchPosition = touch.position;
-                    Ray ray = Camera.main.ScreenPointToRay(touchPosition);
-                    RaycastHit hit;
-                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
-                    {
-                        GameObject newFencePost = Realtime.Instantiate(fencePostPrefab.name, hit.point, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                        tracker.numThingsAdded++;
-                        Debug.Log(tracker.numThingsAdded);
-                        MeshRenderer fencePostRenderer = newFencePost.GetComponent<MeshRenderer>();
-                        if (fencePostRenderer != null)
-                        {
-                            fencePostRenderer.material = fenceMaterial;
-                        }
+                    // Adjust the y-coordinate of the hit point by adding half of the height of the fence post
+                    Vector3 spawnPosition = hit.point + Vector3.up * fencePostPrefab.transform.localScale.y / 2f;
 
-                        fencePostCount++;
-                        if (lastFencePost != null)
-                        {
-                            Vector3 midPoint = (lastFencePost.transform.position + newFencePost.transform.position) / 2f;
-                            GameObject newFenceConnection = Realtime.Instantiate(fenceConnectionPrefab.name, midPoint, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                            Vector3 direction = lastFencePost.transform.position - newFencePost.transform.position;
-                            newFenceConnection.transform.rotation = Quaternion.LookRotation(direction);
-                            float distance = Vector3.Distance(lastFencePost.transform.position, newFencePost.transform.position);
-                            newFenceConnection.transform.localScale = new Vector3(0.2f, 0.4f, distance);
-                            MeshRenderer fenceConnectionRenderer = newFenceConnection.GetComponent<MeshRenderer>();
-                            if (fenceConnectionRenderer != null)
-                            {
-                            fenceConnectionRenderer.material = fenceMaterial;
-                            }
-                        }
-                        lastFencePost = newFencePost;
+                    GameObject newFencePost = Realtime.Instantiate(fencePostPrefab.name, spawnPosition, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
+                    tracker.numThingsAdded++;
+                    Debug.Log(tracker.numThingsAdded);
+                    MeshRenderer fencePostRenderer = newFencePost.GetComponent<MeshRenderer>();
+                    if (fencePostRenderer != null)
+                    {
+                        fencePostRenderer.material = fenceMaterial;
                     }
+
+                    fencePostCount++;
+                    if (lastFencePost != null)
+                    {
+                        Vector3 midPoint = (lastFencePost.transform.position + newFencePost.transform.position) / 2f;
+                        GameObject newFenceConnection = Realtime.Instantiate(fenceConnectionPrefab.name, midPoint, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
+                        Vector3 direction = lastFencePost.transform.position - newFencePost.transform.position;
+                        newFenceConnection.transform.rotation = Quaternion.LookRotation(direction);
+                        float distance = Vector3.Distance(lastFencePost.transform.position, newFencePost.transform.position);
+                        newFenceConnection.transform.localScale = new Vector3(0.2f, 0.4f, distance);
+                        MeshRenderer fenceConnectionRenderer = newFenceConnection.GetComponent<MeshRenderer>();
+                        if (fenceConnectionRenderer != null)
+                        {
+                        fenceConnectionRenderer.material = fenceMaterial;
+                        }
+                    }
+                    lastFencePost = newFencePost;
                 }
             }
         }
     }
+}
+
 }
