@@ -807,8 +807,9 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: NORMCORE
-    Standalone: NORMCORE
+    Android: NORMCORE;USE_INPUT_SYSTEM_POSE_CONTROL
+    Standalone: NORMCORE;USE_INPUT_SYSTEM_POSE_CONTROL
+    Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
