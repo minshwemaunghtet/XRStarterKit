@@ -13,48 +13,47 @@ public class PlaceObject : MonoBehaviour
     public PriceTracker tracker;
     private Realtime _realtime;
     private bool isSpawningEnabled = false;
-    
-    // public void EnableSpawning()
-    // {
-    //     isSpawningEnabled = true;
-    // }
+    private string spawn;
 
     public void DisableSpawning()
     {
         isSpawningEnabled = false;
     }
-    public void ToggleSpawning()
+
+    public void ToggleSpawning(Button button)
     {
         isSpawningEnabled = !isSpawningEnabled;
+        Debug.Log("Button pressed: " + button.name);
+        spawn = button.name;
     }
 
     void Update()
-{
-    if (isSpawningEnabled && Input.touchCount > 0)
     {
-        bool isTouchOverUI = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
-        if (!isTouchOverUI)
+        if (isSpawningEnabled && Input.touchCount > 0)
         {
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
+            bool isTouchOverUI = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
+            if (!isTouchOverUI)
             {
-                Vector3 touchPosition = touch.position;
-                Ray ray = Camera.main.ScreenPointToRay(touchPosition);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
+                Touch touch = Input.GetTouch(0);
+                if (touch.phase == TouchPhase.Began)
                 {
-                    // Adjust the y-coordinate of the hit point by adding half of the height of the object
-                    Vector3 spawnPosition = hit.point + Vector3.up * prefab.transform.localScale.y / 2f;
-                    GameObject newPrefab = Realtime.Instantiate(prefab.name, spawnPosition, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                    tracker.numThingsAdded++;
-                    Debug.Log(tracker.numThingsAdded);
+                    Vector3 touchPosition = touch.position;
+                    Ray ray = Camera.main.ScreenPointToRay(touchPosition);
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
+                    {
+                        // Adjust the y-coordinate of the hit point by adding half of the height of the object
+                        Vector3 spawnPosition = hit.point + Vector3.up * prefab.transform.localScale.y / 2f;
+                        GameObject newPrefab = Realtime.Instantiate(spawn, spawnPosition, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
+                        tracker.numThingsAdded++;
+                        // Debug.Log(tracker.numThingsAdded);
+                    }
                 }
             }
         }
     }
 }
 
-}
 // using System.Collections;
 // using System.Collections.Generic;
 // using UnityEngine;
