@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.1" bbox="-2.1323 -3.8874 -7.1015 9.7744 1.3566 3.1479" targetId="3c2147e24e294facbbb218bebc16eb90" name="CBB108" pathAuthoring="3c2147e24e294facbbb218bebc16eb90_authoring.glb" pathOcclusion="3c2147e24e294facbbb218bebc16eb90_occlusion.3dt" pathNavMesh="3c2147e24e294facbbb218bebc16eb90_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>
