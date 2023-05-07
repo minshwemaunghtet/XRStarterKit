@@ -11,6 +11,8 @@ public class TextScript : MonoBehaviour
     void Update()
     {
         // Update the TextMesh Pro component with the current amount of the Scriptable Object
-        // displayText.text = "Num things added: " + priceTracker.numThingsAdded.ToString();
+        displayText.text = "Number of objects: " + priceTracker.TotalNumObjects.ToString() + "\n" 
+                          + "Total Price: " + priceTracker.TotalPrice.ToString("C") + "\n" 
+                          + "Total number of fence posts: " + priceTracker.numFencePosts.ToString();
     }
 }

@@ -150,7 +150,31 @@ public class PriceTracker : ScriptableObject
 
         
     }
+    public void ResetPriceTracker()
+{
+    TotalNumObjects = 0;
+    TotalPrice = 0;
 
+    TotalPriceChairs = 0;
+    TotalPriceTables = 0;
+    TotalPriceBench = 0;
+    TotalPriceBush = 0;
+    TotalPriceTrees = 0;
+    TotalPriceFence = 0;
+
+    numChairs = 0;
+    numTables = 0;
+    numBench = 0;
+    numBush = 0;
+    numTrees = 0;
+    numFence = 0;
+    numFencePosts = 0;
+    TotalFenceDistanceAbsolute = 0;
+}
+
+private void OnDisable() {
+    ResetPriceTracker();
+}
 
 
 
