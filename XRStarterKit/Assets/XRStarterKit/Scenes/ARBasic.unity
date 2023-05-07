@@ -499,20 +499,20 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 1
-  mTrackableName: my_hall
+  mTrackableName: MyRoom
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/my_hall.xml
-  AuthoringModelPath: 739c2292714f4c3181c8b3789c1f31fc_authoring.glb
-  OcclusionModelPath: 739c2292714f4c3181c8b3789c1f31fc_occlusion.3dt
-  ClipHeight: 0.18991001
+  mDataSetPath: Vuforia/MyRoom.xml
+  AuthoringModelPath: c7e9ceaad56542efb7155ddb09b69add_authoring.glb
+  OcclusionModelPath: c7e9ceaad56542efb7155ddb09b69add_occlusion.3dt
+  ClipHeight: 1.077215
   mSize: {x: 0, y: 0, z: 0}
   mBoundingBox:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
-  mNavMeshModelPath: 739c2292714f4c3181c8b3789c1f31fc_navmesh.glb
+  mNavMeshModelPath: c7e9ceaad56542efb7155ddb09b69add_navmesh.glb
   mVersion: 5.1
-  mBBoxMin: {x: -5.8244, y: -3.0926, z: -5.9113}
-  mBBoxMax: {x: 1.2232, y: 0.0336, z: 6.5397}
+  mBBoxMin: {x: -3.5257, y: -1.42, z: -2.8867}
+  mBBoxMax: {x: 1.654, y: 0.9583, z: 2.541}
   mModelMesh: {fileID: 0}
   mRequiresExternalPositions: 0
   mPreview: {fileID: 844946315}
@@ -547,8 +547,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 844946313}
   mHiddenRoot: {fileID: 0}
-  mTargetName: my_hall
-  mDatasetName: Vuforia/my_hall.xml
+  mTargetName: MyRoom
+  mDatasetName: Vuforia/MyRoom.xml
   mCastedBehaviour: {fileID: 844946313}
   mType: 1
 --- !u!114 &1345455951 stripped
@@ -860,6 +860,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3331902196998569404, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0281861
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902196998569404, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.7678638
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902196998569404, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902196998569404, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 82
+      objectReference: {fileID: 0}
     - target: {fileID: 3331902197059764116, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -1016,6 +1032,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3331902197247077972, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.988055
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902197247077972, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.91964406
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902197247077972, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902197247077972, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 3331902197506944656, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
       propertyPath: m_Name
       value: Tree
@@ -1108,6 +1140,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3331902197610066725, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6895
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902197610066725, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -479.89
+      objectReference: {fileID: 0}
     - target: {fileID: 3331902197820567788, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
       propertyPath: m_text
       value: 'Tree
@@ -1145,6 +1185,14 @@ PrefabInstance:
     - target: {fileID: 3331902198174834362, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: DisableSpawning
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902198523342455, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9916145
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331902198523342455, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.8463745
       objectReference: {fileID: 0}
     - target: {fileID: 5635542080853834705, guid: ac44548137e75d04888f70e87bc47e43, type: 3}
       propertyPath: m_AnchorMax.y
