@@ -16,7 +16,7 @@ public class PriceTracker : ScriptableObject
     public decimal TotalPriceTables = 0;
     public decimal TotalPriceBench = 0;
     public decimal TotalPriceBush = 0;
-    public decimal TotalPriceDecks =0;
+    public decimal TotalPriceTrees =0;
     public decimal TotalPriceFence = 0; 
 
 
@@ -27,7 +27,7 @@ public class PriceTracker : ScriptableObject
     public int numTables = 0;
     public int numBench = 0;
     public int numBush = 0;
-    public int numDecks =0;
+    public int numTrees =0;
     public int numFence = 0; // number of actual full fences placed down
     public int numFencePosts = 0; // number of all posts on all fences
     public float TotalFenceDistanceAbsolute = 0; // absolute distance of fences in play
@@ -39,8 +39,7 @@ public class PriceTracker : ScriptableObject
     public decimal COST_MATERIALS_BENCH = 50.00m;
     public decimal COST_MATERIALS_BUSH = 45.00m;
 
-    public decimal COST_MATERIALS_DECK = 900.00m;
-    public decimal COST_LABOR_DECK = 350.00m;
+    public decimal COST_MATERIALS_TREE = 125.00m;
 
     public decimal COST_MATERIALS_FENCE_ONE_METER = 60.00m;
     public decimal COST_MATERIALS_FENCE_POST = 40.00m;
@@ -76,7 +75,7 @@ public class PriceTracker : ScriptableObject
     public decimal CalculateBasicObjectCost(string resourceType){
         decimal cost =0;
 
-        if (resourceType == "Deck") {cost = COST_MATERIALS_DECK + COST_LABOR_DECK;}
+        if (resourceType == "Tree") {cost = COST_MATERIALS_TREE;}
 
         if (resourceType == "Bench") {cost = COST_MATERIALS_BENCH;}
 
@@ -91,7 +90,7 @@ public class PriceTracker : ScriptableObject
     // update non-fence object count
     public void UpdateBasicObjectCount(string resourceType){
 
-        if (resourceType == "Deck") {numDecks++;}
+        if (resourceType == "Tree") {numTrees++;}
 
         if (resourceType == "Bench") {numBench++;}
 
@@ -104,7 +103,7 @@ public class PriceTracker : ScriptableObject
     // update basic object (non fence) cumulative
     public void UpdateBasicObjectTotalPrice(string resourceType, decimal totalPrice){
 
-        if (resourceType == "Deck") {TotalPriceDecks+=totalPrice;}
+        if (resourceType == "Tree") {TotalPriceTrees+=totalPrice;}
 
         if (resourceType == "Bench") {TotalPriceBench+=totalPrice;}
 
@@ -144,8 +143,12 @@ public class PriceTracker : ScriptableObject
             object_cost = CalculateBasicObjectCost(ResourceType);
             UpdateBasicObjectTotalPrice(ResourceType,object_cost);
         }
-
         TotalPrice += object_cost;
+        Debug.Log("Total Price updated to: " + TotalPrice.ToString());
+        Debug.Log("Total num objects:" + TotalNumObjects.ToString());
+
+
+        
     }
 
 
