@@ -54,7 +54,6 @@ public class PlaceObject : MonoBehaviour
                         // Adjust the y-coordinate of the hit point by adding half of the height of the object
                         Vector3 spawnPosition = hit.point + Vector3.up * prefab.transform.localScale.y / 2f;
                         GameObject newPrefab = Realtime.Instantiate(spawn, spawnPosition, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                        tracker.numThingsAdded++;
                         // Debug.Log(tracker.numThingsAdded);
                     }
                 }

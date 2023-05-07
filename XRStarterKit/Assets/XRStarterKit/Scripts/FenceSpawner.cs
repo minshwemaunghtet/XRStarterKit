@@ -252,8 +252,8 @@ public class FenceSpawner : MonoBehaviour
                     Vector3 spawnPosition = hit.point + Vector3.up * fencePostPrefab.transform.localScale.y / 2f;
 
                     GameObject newFencePost = Realtime.Instantiate(fencePostPrefab.name, spawnPosition, Quaternion.identity, new Realtime.InstantiateOptions() { destroyWhenLastClientLeaves = true });
-                    tracker.numThingsAdded++;
-                    Debug.Log(tracker.numThingsAdded);
+                    // tracker.numThingsAdded++;
+                    // Debug.Log(tracker.numThingsAdded);
                     MeshRenderer fencePostRenderer = newFencePost.GetComponent<MeshRenderer>();
                     if (fencePostRenderer != null)
                     {
