@@ -6,10 +6,12 @@ using TMPro;
 public class TextScript : MonoBehaviour
 {
     public PriceTracker priceTracker;
+    public TextMeshProUGUI summaryText;
     public TextMeshProUGUI displayText;
     
     void Update()
     {
+        summaryText.text = "Summary of all Items";
         // Update the TextMesh Pro component with the current amount of the Scriptable Object
         displayText.text = "Number of objects: " + priceTracker.TotalNumObjects.ToString() + "\n" 
                           + "Total Price: " + priceTracker.TotalPrice.ToString("C") + "\n" 
