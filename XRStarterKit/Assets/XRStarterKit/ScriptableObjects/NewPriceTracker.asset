@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beed7f755338b4642a9dc715336dfa04, type: 3}
   m_Name: NewPriceTracker
   m_EditorClassIdentifier: 
-  currentPrice: 0
-  numThingsAdded: 0
+  TotalNumObjects: 0
+  numChairs: 0
+  numTables: 0
+  numBench: 0
+  numBush: 0
+  numTrees: 0
+  numFence: 0
+  numFencePosts: 0
+  TotalFenceDistanceAbsolute: 0
