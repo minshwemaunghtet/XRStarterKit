@@ -18,12 +18,14 @@ public class PriceTracker : ScriptableObject
     public decimal TotalPriceBush = 0;
     public decimal TotalPriceTrees =0;
     public decimal TotalPriceFence = 0; 
+    public decimal TotalPriceSlab = 0;
 
 
 
     // counts
     /// will be updated by any new object instantiation of the appropriate type
     public int numChairs = 0;
+    public int numSlabs = 0;
     public int numTables = 0;
     public int numBench = 0;
     public int numBush = 0;
@@ -38,6 +40,7 @@ public class PriceTracker : ScriptableObject
     public decimal COST_MATERIALS_TABLE = 100.00m;
     public decimal COST_MATERIALS_BENCH = 50.00m;
     public decimal COST_MATERIALS_BUSH = 45.00m;
+    public decimal COST_MATERIALS_SLAB = 7.50m;
 
     public decimal COST_MATERIALS_TREE = 125.00m;
 
@@ -83,6 +86,8 @@ public class PriceTracker : ScriptableObject
 
         if (resourceType == "Table"){cost = COST_MATERIALS_TABLE;}
 
+        if (resourceType == "Concrete") {cost = COST_MATERIALS_SLAB;}
+
         if (resourceType == "Bush"){cost = COST_MATERIALS_BUSH;}
 
         return cost;
@@ -94,6 +99,8 @@ public class PriceTracker : ScriptableObject
 
         if (resourceType == "Bench") {numBench++;}
 
+        if (resourceType == "Concrete") {numSlabs++;}
+
         if (resourceType == "Chair"){numChairs++;}
 
         if (resourceType == "Table"){numTables++;}
@@ -104,6 +111,8 @@ public class PriceTracker : ScriptableObject
     public void UpdateBasicObjectTotalPrice(string resourceType, decimal totalPrice){
 
         if (resourceType == "Tree") {TotalPriceTrees+=totalPrice;}
+
+        if (resourceType == "Concrete") {TotalPriceSlab+=totalPrice;}
 
         if (resourceType == "Bench") {TotalPriceBench+=totalPrice;}
 
@@ -160,13 +169,16 @@ public class PriceTracker : ScriptableObject
     TotalPriceBench = 0;
     TotalPriceBush = 0;
     TotalPriceTrees = 0;
-    TotalPriceFence = 0;
+    TotalPriceSlab = 0;
+
 
     numChairs = 0;
     numTables = 0;
     numBench = 0;
     numBush = 0;
     numTrees = 0;
+    numSlabs = 0;
+
     numFence = 0;
     numFencePosts = 0;
     TotalFenceDistanceAbsolute = 0;
