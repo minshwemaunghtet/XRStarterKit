@@ -2834,7 +2834,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1105446670}
         m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
-        m_MethodName: ToggleSpawning
+        m_MethodName: EnableSpawning
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 6919847688635560744}
