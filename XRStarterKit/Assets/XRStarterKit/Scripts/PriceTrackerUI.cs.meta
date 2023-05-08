@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 7c22cb7668c93ef4487f042214f2b200
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - priceTracker: {fileID: 11400000, guid: da7cc25ee31a41e488d0c22627e166c0, type: 2}
+  - totalNumObjectsText: {instanceID: 0}
+  - totalPriceText: {instanceID: 0}
+  - totalPriceChairsText: {instanceID: 0}
+  - totalPriceTablesText: {instanceID: 0}
+  - totalPriceBenchText: {instanceID: 0}
+  - totalPriceBushText: {instanceID: 0}
+  - totalPriceTreesText: {instanceID: 0}
+  - totalPriceFenceText: {instanceID: 0}
+  - numChairsText: {instanceID: 0}
+  - numTablesText: {instanceID: 0}
+  - numBenchText: {instanceID: 0}
+  - numBushText: {instanceID: 0}
+  - numTreesText: {instanceID: 0}
+  - numFenceText: {instanceID: 0}
+  - numFencePostsText: {instanceID: 0}
+  - totalFenceDistanceAbsoluteText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
