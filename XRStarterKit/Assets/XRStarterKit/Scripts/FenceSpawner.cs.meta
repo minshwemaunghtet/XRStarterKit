@@ -7,6 +7,8 @@ MonoImporter:
   - fencePostPrefab: {fileID: 2735042474582350553, guid: 223b5dbce5276114ea49265598840c6d, type: 3}
   - fenceConnectionPrefab: {fileID: 3109582183125027111, guid: aaed1dae96bc9484895736f8840d9d9c, type: 3}
   - fenceMaterial: {fileID: -6050440918988842553, guid: cdbe92495d72849f0ab4ce107bfad6f6, type: 3}
+  - tracker: {fileID: 11400000, guid: da7cc25ee31a41e488d0c22627e166c0, type: 2}
+  - fenceCountInput: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
