@@ -22,11 +22,13 @@ public class PlaceObject : MonoBehaviour
     }
 
     public void ToggleSpawning(Button button)
-    {
-        isSpawningEnabled = !isSpawningEnabled;
-        Debug.Log("Button pressed: " + button.name);
-        spawn = button.name;
-    }
+{
+    isSpawningEnabled = !isSpawningEnabled;
+    Debug.Log("Button pressed: " + button.name);
+    spawn = button.name;
+    // Image buttonImage = button.GetComponent<Image>();
+    // buttonImage.color = Color.red;
+}
 
     void Update()
     {
