@@ -5646,12 +5646,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NumberFormatInfo_t8E26808B202927FEBF9064FCFEE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Number_FormatDecimal_m1D676457899C88949F1E3605BC700474BA243B05 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_value, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_format, NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___2_info, const RuntimeMethod* method) ;
 // System.String System.Decimal::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Decimal_ToString_m410E3F1BAA164B7544B3546D011D41B1C9E5C075 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* __this, const RuntimeMethod* method) ;
+// System.ReadOnlySpan`1<System.Char> System.String::op_Implicit(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline (String_t* ___0_value, const RuntimeMethod* method) ;
+// System.String System.Decimal::ToString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Decimal_ToString_m109EB6FE37D81F6CE2757233A8987D45B8B1A6BD (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* __this, String_t* ___0_format, const RuntimeMethod* method) ;
 // System.Globalization.NumberFormatInfo System.Globalization.NumberFormatInfo::GetInstance(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* NumberFormatInfo_GetInstance_m705987E5E7D3E5EC5C5DD2D088FBC9BCBA0FC31F (RuntimeObject* ___0_formatProvider, const RuntimeMethod* method) ;
 // System.String System.Decimal::ToString(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Decimal_ToString_m08256316312F5D05FE3D099C083A99BC694F4762 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* __this, RuntimeObject* ___0_provider, const RuntimeMethod* method) ;
-// System.ReadOnlySpan`1<System.Char> System.String::op_Implicit(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String System.Decimal::ToString(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Decimal_ToString_m2600674D09D44940FA0AAA00A87858E741671F4E (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* __this, String_t* ___0_format, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
 // System.Boolean System.Number::TryFormatDecimal(System.Decimal,System.ReadOnlySpan`1<System.Char>,System.Globalization.NumberFormatInfo,System.Span`1<System.Char>,System.Int32&)
@@ -8962,6 +8964,37 @@ IL2CPP_EXTERN_C  String_t* Decimal_ToString_m410E3F1BAA164B7544B3546D011D41B1C9E
 	_thisAdjusted = reinterpret_cast<Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F*>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = Decimal_ToString_m410E3F1BAA164B7544B3546D011D41B1C9E5C075(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.String System.Decimal::ToString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Decimal_ToString_m109EB6FE37D81F6CE2757233A8987D45B8B1A6BD (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* __this, String_t* ___0_format, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = (*(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F*)__this);
+		String_t* L_1 = ___0_format;
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_2;
+		L_2 = String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline(L_1, NULL);
+		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_3;
+		L_3 = NumberFormatInfo_get_CurrentInfo_m121C9878F777AD81289C7B2BF589293E509FD9B4(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = Number_FormatDecimal_m1D676457899C88949F1E3605BC700474BA243B05(L_0, L_2, L_3, NULL);
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  String_t* Decimal_ToString_m109EB6FE37D81F6CE2757233A8987D45B8B1A6BD_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, const RuntimeMethod* method)
+{
+	Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = Decimal_ToString_m109EB6FE37D81F6CE2757233A8987D45B8B1A6BD(_thisAdjusted, ___0_format, method);
 	return _returnValue;
 }
 // System.String System.Decimal::ToString(System.IFormatProvider)

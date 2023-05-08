@@ -198,6 +198,8 @@ struct InputProcessor_1_t1CC26A1FCC23A7A16496FBF6C96FB75B7243F33B;
 struct InputProcessor_1_t6E31E29C499C6D9610C662BCCAD45B97D442C96B;
 // UnityEngine.InputSystem.InputProcessor`1<UnityEngine.XR.OpenXR.Input.Pose>
 struct InputProcessor_1_t78F9C34EDBC35F104AA29CD1504F6EDF4D40F6E4;
+// UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.PoseState>
+struct InputProcessor_1_tD234B7759A8C8888379215D9C740842DBF801EEE;
 // UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Quaternion>
 struct InputProcessor_1_t43B1AEC927E378D43D0207A4C031927E872280CE;
 // UnityEngine.InputSystem.InputProcessor`1<System.Single>
@@ -264,6 +266,8 @@ struct InputProcessor_1U5BU5D_t52E0784C7C7DC1F9DD933C24748593B119136AB3;
 struct InputProcessor_1U5BU5D_tB3C64A18219DEBFF75635AE580655A02C187A57E;
 // UnityEngine.InputSystem.InputProcessor`1<UnityEngine.XR.OpenXR.Input.Pose>[]
 struct InputProcessor_1U5BU5D_t78F3AC6BDDF94FA23A7854E939169CB835506B6D;
+// UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.PoseState>[]
+struct InputProcessor_1U5BU5D_t37ED9D8E6EA5F3F57C79D6A374699DBE2B1E4D2A;
 // UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Quaternion>[]
 struct InputProcessor_1U5BU5D_t8533CEA9A58C5C83EB993039C5E7601637DA4140;
 // UnityEngine.InputSystem.InputProcessor`1<System.Single>[]
@@ -440,6 +444,8 @@ struct OpenXRRestarter_t59BB3482FA6ED413E66F91ABE39820D83AAE8AA1;
 struct OpenXRSettings_tC785370EE9F65516FED2B31400BF71DC84F94B55;
 // System.OperatingSystem
 struct OperatingSystem_t08A94435A5C7D999B5553B6C58763A6F2E3C8557;
+// UnityEngine.InputSystem.XR.PoseControl
+struct PoseControl_t28571DE0327FBB52F360251074D1DA294A197862;
 // UnityEngine.XR.OpenXR.Input.PoseControl
 struct PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3;
 // UnityEngine.InputSystem.Controls.QuaternionControl
@@ -909,7 +915,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisAxisControl
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_m733A504494A27BA6CE88FB8C3628ECFD4DD7FFD4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisVector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_m3957D0D8F6F298173F867E33A3E5ED0F9A591F85_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var;
@@ -919,7 +925,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1__ctor_m4267CE5D9D4C8FFE
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_mA0987E833BC5E1BF25C8A24A2E9684F0BF438ED1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisOpenXRHmd_t052F4002C0C8E4DAFB34A1EBB6BE407292E2BE00_m0B15A60F7E5F7D751D78975A64377A572196D348_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_mD6AC9439793F2604596850839D0034FE47CF93C9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m2FDA76259256A39650A71E440DBCBEDF5A98EB9C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_mF32FE3FC02E412E061580C6E09BB10E930A61901_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_m9C2247C1E5CDBF0E0F9BB2261E47CDB2121BC0C4_RuntimeMethod_var;
@@ -1680,6 +1685,17 @@ struct InlinedArray_1_t43C6F0C75DD78F031764269A676E3F95E66E45F7
 	InputProcessor_1_t78F9C34EDBC35F104AA29CD1504F6EDF4D40F6E4* ___firstValue_1;
 	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
 	InputProcessor_1U5BU5D_t78F3AC6BDDF94FA23A7854E939169CB835506B6D* ___additionalValues_2;
+};
+
+// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.InputSystem.XR.PoseState>>
+struct InlinedArray_1_t6E2BC68EDE9604FC8F6F2882E41E78DEBFFC86C7 
+{
+	// System.Int32 UnityEngine.InputSystem.Utilities.InlinedArray`1::length
+	int32_t ___length_0;
+	// TValue UnityEngine.InputSystem.Utilities.InlinedArray`1::firstValue
+	InputProcessor_1_tD234B7759A8C8888379215D9C740842DBF801EEE* ___firstValue_1;
+	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
+	InputProcessor_1U5BU5D_t37ED9D8E6EA5F3F57C79D6A374699DBE2B1E4D2A* ___additionalValues_2;
 };
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<UnityEngine.Quaternion>>
@@ -3196,6 +3212,265 @@ struct Pose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10_marshaled_com
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CangularVelocityU3Ek__BackingField_5;
 };
 
+// UnityEngine.InputSystem.XR.PoseState
+struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// System.Boolean UnityEngine.InputSystem.XR.PoseState::isTracked
+					bool ___isTracked_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					bool ___isTracked_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_3_OffsetPadding[4];
+					// UnityEngine.XR.InputTrackingState UnityEngine.InputSystem.XR.PoseState::trackingState
+					uint32_t ___trackingState_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___trackingState_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___trackingState_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___position_4_OffsetPadding[8];
+					// UnityEngine.Vector3 UnityEngine.InputSystem.XR.PoseState::position
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___position_4_OffsetPadding_forAlignmentOnly[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rotation_5_OffsetPadding[20];
+					// UnityEngine.Quaternion UnityEngine.InputSystem.XR.PoseState::rotation
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___rotation_5_OffsetPadding_forAlignmentOnly[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___velocity_6_OffsetPadding[36];
+					// UnityEngine.Vector3 UnityEngine.InputSystem.XR.PoseState::velocity
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___velocity_6_OffsetPadding_forAlignmentOnly[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___angularVelocity_7_OffsetPadding[48];
+					// UnityEngine.Vector3 UnityEngine.InputSystem.XR.PoseState::angularVelocity
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___angularVelocity_7_OffsetPadding_forAlignmentOnly[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2__padding[60];
+	};
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.XR.PoseState
+struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_marshaled_pinvoke
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					int32_t ___isTracked_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					int32_t ___isTracked_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_3_OffsetPadding[4];
+					uint32_t ___trackingState_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___trackingState_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___trackingState_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___position_4_OffsetPadding[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___position_4_OffsetPadding_forAlignmentOnly[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rotation_5_OffsetPadding[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___rotation_5_OffsetPadding_forAlignmentOnly[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___velocity_6_OffsetPadding[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___velocity_6_OffsetPadding_forAlignmentOnly[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___angularVelocity_7_OffsetPadding[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___angularVelocity_7_OffsetPadding_forAlignmentOnly[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2__padding[60];
+	};
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.XR.PoseState
+struct PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2_marshaled_com
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					int32_t ___isTracked_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					int32_t ___isTracked_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_3_OffsetPadding[4];
+					uint32_t ___trackingState_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___trackingState_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___trackingState_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___position_4_OffsetPadding[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___position_4_OffsetPadding_forAlignmentOnly[8];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rotation_5_OffsetPadding[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___rotation_5_OffsetPadding_forAlignmentOnly[20];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___velocity_6_OffsetPadding[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___velocity_6_OffsetPadding_forAlignmentOnly[36];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___angularVelocity_7_OffsetPadding[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___angularVelocity_7_OffsetPadding_forAlignmentOnly[48];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angularVelocity_7_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2__padding[60];
+	};
+};
+
 // System.RuntimeTypeHandle
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
@@ -3543,6 +3818,19 @@ struct InputControl_1_t9A3AE5DAAF967805F8AEE1679CE0BB660F1CD58F  : public InputC
 	bool ___evaluateProcessorsEveryRead_27;
 };
 
+// UnityEngine.InputSystem.InputControl`1<UnityEngine.InputSystem.XR.PoseState>
+struct InputControl_1_t397D69C473620E11E58D59DB7685FDC86294B22A  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
+{
+	// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputProcessor`1<TValue>> UnityEngine.InputSystem.InputControl`1::m_ProcessorStack
+	InlinedArray_1_t6E2BC68EDE9604FC8F6F2882E41E78DEBFFC86C7 ___m_ProcessorStack_24;
+	// TValue UnityEngine.InputSystem.InputControl`1::m_CachedValue
+	PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 ___m_CachedValue_25;
+	// TValue UnityEngine.InputSystem.InputControl`1::m_UnprocessedCachedValue
+	PoseState_t1455185C7AA7AC8BCD6767AABF0AC47367FB99D2 ___m_UnprocessedCachedValue_26;
+	// System.Boolean UnityEngine.InputSystem.InputControl`1::evaluateProcessorsEveryRead
+	bool ___evaluateProcessorsEveryRead_27;
+};
+
 // UnityEngine.InputSystem.InputControl`1<UnityEngine.Quaternion>
 struct InputControl_1_t9C13D8BC7805C38134C3ED7262E9ECF28CC59770  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
 {
@@ -3843,6 +4131,23 @@ struct OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E  : pub
 {
 };
 
+// UnityEngine.InputSystem.XR.PoseControl
+struct PoseControl_t28571DE0327FBB52F360251074D1DA294A197862  : public InputControl_1_t397D69C473620E11E58D59DB7685FDC86294B22A
+{
+	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.InputSystem.XR.PoseControl::<isTracked>k__BackingField
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_28;
+	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.InputSystem.XR.PoseControl::<trackingState>k__BackingField
+	IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* ___U3CtrackingStateU3Ek__BackingField_29;
+	// UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.InputSystem.XR.PoseControl::<position>k__BackingField
+	Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* ___U3CpositionU3Ek__BackingField_30;
+	// UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.InputSystem.XR.PoseControl::<rotation>k__BackingField
+	QuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1* ___U3CrotationU3Ek__BackingField_31;
+	// UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.InputSystem.XR.PoseControl::<velocity>k__BackingField
+	Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* ___U3CvelocityU3Ek__BackingField_32;
+	// UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.InputSystem.XR.PoseControl::<angularVelocity>k__BackingField
+	Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* ___U3CangularVelocityU3Ek__BackingField_33;
+};
+
 // UnityEngine.XR.OpenXR.Input.PoseControl
 struct PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3  : public InputControl_1_t9A3AE5DAAF967805F8AEE1679CE0BB660F1CD58F
 {
@@ -4026,8 +4331,8 @@ struct XRHMD_t2AB69188B210850F78044E5288C17FD173DB9B98  : public TrackedDevice_t
 // UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice
 struct EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810  : public OpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC
 {
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::<pose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CposeU3Ek__BackingField_44;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::<pose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CposeU3Ek__BackingField_44;
 };
 
 // UnityEngine.XR.OpenXR.Input.OpenXRHmd
@@ -4063,10 +4368,10 @@ struct HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354  : public XRContro
 	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CsqueezeU3Ek__BackingField_50;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<squeezePressed>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CsqueezePressedU3Ek__BackingField_51;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<devicePose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CdevicePoseU3Ek__BackingField_52;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<pointer>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CpointerU3Ek__BackingField_53;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<devicePose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CdevicePoseU3Ek__BackingField_52;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<pointer>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CpointerU3Ek__BackingField_53;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<isTracked>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_54;
 	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::<trackingState>k__BackingField
@@ -4102,10 +4407,10 @@ struct ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381  : public XRCont
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CtrackpadClickedU3Ek__BackingField_55;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<trackpadTouched>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CtrackpadTouchedU3Ek__BackingField_56;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<devicePose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CdevicePoseU3Ek__BackingField_57;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<pointer>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CpointerU3Ek__BackingField_58;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<devicePose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CdevicePoseU3Ek__BackingField_57;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<pointer>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CpointerU3Ek__BackingField_58;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<isTracked>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_59;
 	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::<trackingState>k__BackingField
@@ -4129,10 +4434,10 @@ struct KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28  : public X
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CselectU3Ek__BackingField_48;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<menu>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CmenuU3Ek__BackingField_49;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<devicePose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CdevicePoseU3Ek__BackingField_50;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<pointer>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CpointerU3Ek__BackingField_51;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<devicePose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CdevicePoseU3Ek__BackingField_50;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<pointer>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CpointerU3Ek__BackingField_51;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<isTracked>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_52;
 	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::<trackingState>k__BackingField
@@ -4172,10 +4477,10 @@ struct WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801  : public 
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CtouchpadClickedU3Ek__BackingField_56;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<touchpadTouched>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CtouchpadTouchedU3Ek__BackingField_57;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<devicePose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CdevicePoseU3Ek__BackingField_58;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<pointer>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CpointerU3Ek__BackingField_59;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<devicePose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CdevicePoseU3Ek__BackingField_58;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<pointer>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CpointerU3Ek__BackingField_59;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<isTracked>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_60;
 	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::<trackingState>k__BackingField
@@ -4223,10 +4528,10 @@ struct OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909  : public
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CthumbstickTouchedU3Ek__BackingField_60;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<thumbrestTouched>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CthumbrestTouchedU3Ek__BackingField_61;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<devicePose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CdevicePoseU3Ek__BackingField_62;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<pointer>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CpointerU3Ek__BackingField_63;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<devicePose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CdevicePoseU3Ek__BackingField_62;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<pointer>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CpointerU3Ek__BackingField_63;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<isTracked>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_64;
 	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::<trackingState>k__BackingField
@@ -4282,10 +4587,10 @@ struct ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3  : public 
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CtrackpadTouchedU3Ek__BackingField_64;
 	// UnityEngine.InputSystem.Controls.AxisControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<trackpadForce>k__BackingField
 	AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___U3CtrackpadForceU3Ek__BackingField_65;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<devicePose>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CdevicePoseU3Ek__BackingField_66;
-	// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<pointer>k__BackingField
-	PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___U3CpointerU3Ek__BackingField_67;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<devicePose>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CdevicePoseU3Ek__BackingField_66;
+	// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<pointer>k__BackingField
+	PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___U3CpointerU3Ek__BackingField_67;
 	// UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<isTracked>k__BackingField
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CisTrackedU3Ek__BackingField_68;
 	// UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::<trackingState>k__BackingField
@@ -5293,6 +5598,10 @@ struct OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E_Static
 };
 
 // UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature
+
+// UnityEngine.InputSystem.XR.PoseControl
+
+// UnityEngine.InputSystem.XR.PoseControl
 
 // UnityEngine.XR.OpenXR.Input.PoseControl
 
@@ -6416,11 +6725,6 @@ inline void InputSystem_RegisterLayout_TisHapticControl_t55C6C8AF176B500F8A11E14
 {
 	((  void (*) (String_t*, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C, const RuntimeMethod*))InputSystem_RegisterLayout_TisRuntimeObject_m8B0CF2E33066D31E034869BE401DD185E2F04011_gshared)(___0_name, ___1_matches, method);
 }
-// System.Void UnityEngine.InputSystem.InputSystem::RegisterLayout<UnityEngine.XR.OpenXR.Input.PoseControl>(System.String,System.Nullable`1<UnityEngine.InputSystem.Layouts.InputDeviceMatcher>)
-inline void InputSystem_RegisterLayout_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_mD6AC9439793F2604596850839D0034FE47CF93C9 (String_t* ___0_name, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C ___1_matches, const RuntimeMethod* method)
-{
-	((  void (*) (String_t*, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C, const RuntimeMethod*))InputSystem_RegisterLayout_TisRuntimeObject_m8B0CF2E33066D31E034869BE401DD185E2F04011_gshared)(___0_name, ___1_matches, method);
-}
 // System.Void UnityEngine.InputSystem.InputSystem::RegisterLayout<UnityEngine.XR.OpenXR.Input.OpenXRDevice>(System.String,System.Nullable`1<UnityEngine.InputSystem.Layouts.InputDeviceMatcher>)
 inline void InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E (String_t* ___0_name, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C ___1_matches, const RuntimeMethod* method)
 {
@@ -7055,13 +7359,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRInteractionFeature_AddActionMap_mB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRInteractionFeature__ctor_m7C6DDC7C52070631AF9B879AD5E07CD25B4AF558 (OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Input.OpenXRDevice::FinishSetup()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRDevice_FinishSetup_mC7EC3349FD16F18259604E454C2CD4A58B561353 (OpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC* __this, const RuntimeMethod* method) ;
-// TControl UnityEngine.InputSystem.InputControl::GetChildControl<UnityEngine.XR.OpenXR.Input.PoseControl>(System.String)
-inline PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317 (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* __this, String_t* ___0_path, const RuntimeMethod* method)
+// TControl UnityEngine.InputSystem.InputControl::GetChildControl<UnityEngine.InputSystem.XR.PoseControl>(System.String)
+inline PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* __this, String_t* ___0_path, const RuntimeMethod* method)
 {
-	return ((  PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* (*) (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*, String_t*, const RuntimeMethod*))InputControl_GetChildControl_TisRuntimeObject_m5E81C3A512C444426EB15097CCF01D73CF1C614C_gshared)(__this, ___0_path, method);
+	return ((  PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* (*) (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*, String_t*, const RuntimeMethod*))InputControl_GetChildControl_TisRuntimeObject_m5E81C3A512C444426EB15097CCF01D73CF1C614C_gshared)(__this, ___0_path, method);
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::set_pose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EyeGazeDevice_set_pose_mB78DA36A73720DF4C7DC721645F308F936990CD8_inline (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::set_pose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EyeGazeDevice_set_pose_mBB7B3DBE8C1D8A98E043F286F4A46BF455500593_inline (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Input.OpenXRDevice::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRDevice__ctor_m93460312AEB7E6CB78FF7EBEBF2949EB57A29A20 (OpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Vector3>::.ctor(System.String)
@@ -7104,14 +7408,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_trackpad_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_trackpadClicked_m0EE0BEAFBF5BC831CB5576A401275888EF7F1BAD_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_trackpadTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_trackpadTouched_m3B02E000B33FB88922960BB744715872A1EC2863_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointer_m30BC04DB020C6DFC549601C8F95FF29C2DDBA5E2_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointer_mCE355F5FAD837FFE8481AA1901532DDC63D998D4_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_pointerPosition(UnityEngine.InputSystem.Controls.Vector3Control)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointerPosition_m8B067F064AB7689B86D8BFA6CAE9A8DE19CFE8FE_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_pointerRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointerRotation_m01F36DF8B2F8065860B78D11EC2499F91870F616_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, QuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_devicePose_m9546799763458D3AB46CD0D00900B8B3992DEABD_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_devicePose_m1E52788C5CBA837C2B120855B30E4F4D32C887C3_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_isTracked_m4E904917F237499F548B3249311ACBDBE4621FCF_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
@@ -7133,10 +7437,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRControllerWithRumble__ctor_m78ED6D1958
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_menu_mE8541619F57A2B8CD2C27E80A312F0513DEB93DB_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_select(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_select_m905040370FCA26713A6A3947E5E0F37C84C02BC3_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_devicePose_mDA8AFDE8EA552664A791869E7292A0DBC615379F_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_pointer_m1C75D93230E0BC692EA773115876AA31C58407F8_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_devicePose_m3B249C00CEA397FDB7D58840C81DB1FD4C568ECF_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_pointer_mAD460A9DA97C33AE9D46E78D86F561B2456E080F_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_isTracked_mC7BA5994751615BC7C86BD8DE57514E8C117ED41_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
@@ -7159,10 +7463,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_selectPress
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_squeeze_m3831542A8A964149DA4AAB6A448F3B69D74B9BAC_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_squeezePressed(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_squeezePressed_mE9A1F74616800FF0B5F8C75A5AD44F59FEE2FDD8_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_devicePose_mDED3BA17455E92A3F00C187AA156E4B257412C06_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_pointer_mC11D31F6488E02E386CC32B7D8FD34F772A52B35_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_devicePose_m19E6C6E3CF7D04AD6EF67707A67123AB7EA957CE_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_pointer_mB9C69FFC3C34D9261289D1CC0C9A857785CAA302_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_isTracked_m52E4936B167C7DB6A53ED1ABF94B8F3E7D17951B_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
@@ -7197,10 +7501,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_tri
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_touchpadClicked_m0882A355BF84A246F9D24F1A2DFD7F7751BE3366_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_touchpadTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_touchpadTouched_m7881BC2F92B81FFEF53C77985F7E29117FEC587C_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_devicePose_m33C65D94E660ED672BC06D5637F788D2952EA491_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_pointer_m72E0B7242077F8E83C60BC0BA3162E3317EB5056_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_devicePose_mDA804F37F60E61B4CE235D0582C0C5E017415DBA_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_pointer_mF962DCE47D42EE22C4FB85F72753FF0E0117B560_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_isTracked_mB2F9887976872B20EB6D8124F4241248B4C35B08_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
@@ -7243,10 +7547,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_th
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_thumbstickTouched_mF5E1476440E6DE77D2A589480486743CE0B74428_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_thumbrestTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_thumbrestTouched_m9BF86704CAE5AC2AADC4F5180974045203C40F7F_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_devicePose_m33FEBD3FB246168752F99E644024E8D3E972D051_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_pointer_m42F7F993445694FD46655941F4DA0A87A5583C7D_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_devicePose_m196C6D26091F77A2938B83D671B738691C6BBD5F_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_pointer_mF054C318BE09F667C53B87D061B7EA6F81EAEFEC_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_isTracked_m2328E3620924C0D2D16A894125DFF79E113884A4_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
@@ -7297,10 +7601,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_tra
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_trackpadTouched_m95A90C89D27EF355C586E7E072A6DF5F3151734C_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_trackpadForce(UnityEngine.InputSystem.Controls.AxisControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_trackpadForce_mBF65ED356A0EFA5B90025E13678C61DDE856E123_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_devicePose_m89579A31B10975C1E453A99172A55812DE5BD37F_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_pointer_mB8F0B80E957CCA9ADDBCDA4C3CDB3BB6976DB56C_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_devicePose_m3A93EFC83875C36CC48C64D8E18E07D6C4625994_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_pointer_m7B3834B29974B1420F09B97E0078619B8FD7E594_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_isTracked_m4670035C1289BAEDEE6E4194D33522B0FCD391C1_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
@@ -15822,10 +16126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRInput_RegisterLayouts_m7A963CBE2CE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_mA0987E833BC5E1BF25C8A24A2E9684F0BF438ED1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisOpenXRHmd_t052F4002C0C8E4DAFB34A1EBB6BE407292E2BE00_m0B15A60F7E5F7D751D78975A64377A572196D348_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_mD6AC9439793F2604596850839D0034FE47CF93C9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral149967D8B0B4FF60C95B519437C63F4F13C1E258);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCEA7D15BD7D3108714FE5FE1861D75886730D5F1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD2C8178115354DFF633FA786548CBBBFAA8143EB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD9D97E55CEF319D733EAEB6D96CBA85658EB3E1C);
@@ -15842,32 +16144,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRInput_RegisterLayouts_m7A963CBE2CE
 		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_0 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_RegisterLayout_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_mA0987E833BC5E1BF25C8A24A2E9684F0BF438ED1(_stringLiteralCEA7D15BD7D3108714FE5FE1861D75886730D5F1, L_0, InputSystem_RegisterLayout_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_mA0987E833BC5E1BF25C8A24A2E9684F0BF438ED1_RuntimeMethod_var);
-		// InputSystem.InputSystem.RegisterLayout<PoseControl>("Pose");
-		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C));
-		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_1 = V_0;
-		InputSystem_RegisterLayout_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_mD6AC9439793F2604596850839D0034FE47CF93C9(_stringLiteral149967D8B0B4FF60C95B519437C63F4F13C1E258, L_1, InputSystem_RegisterLayout_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_mD6AC9439793F2604596850839D0034FE47CF93C9_RuntimeMethod_var);
 		// InputSystem.InputSystem.RegisterLayout<OpenXRDevice>();
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C));
-		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_2 = V_0;
-		InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E((String_t*)NULL, L_2, InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E_RuntimeMethod_var);
+		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_1 = V_0;
+		InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E((String_t*)NULL, L_1, InputSystem_RegisterLayout_TisOpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC_m0DE2D97F4D6DAA1296E598CB27948CC697B14D1E_RuntimeMethod_var);
 		// InputSystem.InputSystem.RegisterLayout<OpenXRHmd>(matches: new InputDeviceMatcher()
 		//     .WithInterface(XRUtilities.InterfaceMatchAnyVersion)
 		//     .WithProduct(@"Head Tracking - OpenXR")
 		//     .WithManufacturer(@"OpenXR"));
-		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555* L_3 = (&V_1);
-		il2cpp_codegen_initobj(L_3, sizeof(InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555));
+		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555* L_2 = (&V_1);
+		il2cpp_codegen_initobj(L_2, sizeof(InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555));
+		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_3;
+		L_3 = InputDeviceMatcher_WithInterface_m58A8A1CF9A77598D0F904E13A86F48B3464725E4(L_2, _stringLiteralDCA884BDE3461B51BC3CBE077E141428C6D55245, (bool)1, NULL);
+		V_1 = L_3;
 		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_4;
-		L_4 = InputDeviceMatcher_WithInterface_m58A8A1CF9A77598D0F904E13A86F48B3464725E4(L_3, _stringLiteralDCA884BDE3461B51BC3CBE077E141428C6D55245, (bool)1, NULL);
+		L_4 = InputDeviceMatcher_WithProduct_mE94024C38110251CBECB493C7753D417FFC5FD2E((&V_1), _stringLiteralD9D97E55CEF319D733EAEB6D96CBA85658EB3E1C, (bool)1, NULL);
 		V_1 = L_4;
 		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_5;
-		L_5 = InputDeviceMatcher_WithProduct_mE94024C38110251CBECB493C7753D417FFC5FD2E((&V_1), _stringLiteralD9D97E55CEF319D733EAEB6D96CBA85658EB3E1C, (bool)1, NULL);
-		V_1 = L_5;
-		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_6;
-		L_6 = InputDeviceMatcher_WithManufacturer_m1D657A87897B8EA1833248EF3D07E265DDE90F00((&V_1), _stringLiteralD2C8178115354DFF633FA786548CBBBFAA8143EB, (bool)1, NULL);
-		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_7;
-		memset((&L_7), 0, sizeof(L_7));
-		Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB((&L_7), L_6, /*hidden argument*/Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
-		InputSystem_RegisterLayout_TisOpenXRHmd_t052F4002C0C8E4DAFB34A1EBB6BE407292E2BE00_m0B15A60F7E5F7D751D78975A64377A572196D348((String_t*)NULL, L_7, InputSystem_RegisterLayout_TisOpenXRHmd_t052F4002C0C8E4DAFB34A1EBB6BE407292E2BE00_m0B15A60F7E5F7D751D78975A64377A572196D348_RuntimeMethod_var);
+		L_5 = InputDeviceMatcher_WithManufacturer_m1D657A87897B8EA1833248EF3D07E265DDE90F00((&V_1), _stringLiteralD2C8178115354DFF633FA786548CBBBFAA8143EB, (bool)1, NULL);
+		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB((&L_6), L_5, /*hidden argument*/Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
+		InputSystem_RegisterLayout_TisOpenXRHmd_t052F4002C0C8E4DAFB34A1EBB6BE407292E2BE00_m0B15A60F7E5F7D751D78975A64377A572196D348((String_t*)NULL, L_6, InputSystem_RegisterLayout_TisOpenXRHmd_t052F4002C0C8E4DAFB34A1EBB6BE407292E2BE00_m0B15A60F7E5F7D751D78975A64377A572196D348_RuntimeMethod_var);
 		// OpenXRInteractionFeature.RegisterLayouts();
 		OpenXRInteractionFeature_RegisterLayouts_m8A447D0189F5F0C4D629D2061967B639EE80CAC8(NULL);
 		// }
@@ -22363,21 +22661,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeGazeInteraction__ctor_m035941D0633C2C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::get_pose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* EyeGazeDevice_get_pose_mD13A5759B7603B7CAAF7B0B84172356B5DFE856B (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::get_pose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* EyeGazeDevice_get_pose_mF9A6A5D4326B48DCC3A85C957AA99B665FE3253C (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CposeU3Ek__BackingField_44;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CposeU3Ek__BackingField_44;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::set_pose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeGazeDevice_set_pose_mB78DA36A73720DF4C7DC721645F308F936990CD8 (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice::set_pose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeGazeDevice_set_pose_mBB7B3DBE8C1D8A98E043F286F4A46BF455500593 (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CposeU3Ek__BackingField_44 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CposeU3Ek__BackingField_44), (void*)L_0);
 		return;
@@ -22389,7 +22687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeGazeDevice_FinishSetup_m188632B8B1F80
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEFC86221AAB7628EBCE554785B46AE44BE79305F);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -22397,9 +22695,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeGazeDevice_FinishSetup_m188632B8B1F80
 		// base.FinishSetup();
 		OpenXRDevice_FinishSetup_mC7EC3349FD16F18259604E454C2CD4A58B561353(__this, NULL);
 		// pose = GetChildControl<PoseControl>("pose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0;
-		L_0 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteralEFC86221AAB7628EBCE554785B46AE44BE79305F, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		EyeGazeDevice_set_pose_mB78DA36A73720DF4C7DC721645F308F936990CD8_inline(__this, L_0, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0;
+		L_0 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteralEFC86221AAB7628EBCE554785B46AE44BE79305F, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		EyeGazeDevice_set_pose_mBB7B3DBE8C1D8A98E043F286F4A46BF455500593_inline(__this, L_0, NULL);
 		// }
 		return;
 	}
@@ -23676,41 +23974,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_set_trackpadTouched_m3B02
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::get_devicePose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ViveController_get_devicePose_mE223CC8A07BE4E18885E06D7571566AB6FAFE859 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::get_devicePose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ViveController_get_devicePose_m477623A2B85F875EF768F8DF93CE5A597C8F1AE1 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_57;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_57;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_set_devicePose_m9546799763458D3AB46CD0D00900B8B3992DEABD (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_set_devicePose_m1E52788C5CBA837C2B120855B30E4F4D32C887C3 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_57 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_57), (void*)L_0);
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::get_pointer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ViveController_get_pointer_m251C3D3AEF7821D01ADBC19209B3177855245CD5 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::get_pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ViveController_get_pointer_mA6CF78645EAB028DC4F9E53D8EE275B080694A76 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CpointerU3Ek__BackingField_58;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CpointerU3Ek__BackingField_58;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_set_pointer_m30BC04DB020C6DFC549601C8F95FF29C2DDBA5E2 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile/ViveController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_set_pointer_mCE355F5FAD837FFE8481AA1901532DDC63D998D4 (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_58 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_58), (void*)L_0);
 		return;
@@ -23866,7 +24164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_FinishSetup_mF12EEF3B201E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_m733A504494A27BA6CE88FB8C3628ECFD4DD7FFD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_m3957D0D8F6F298173F867E33A3E5ED0F9A591F85_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
@@ -23930,9 +24228,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_FinishSetup_mF12EEF3B201E
 		L_8 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteralB65ECF98859F9960AF3A135B1DB157C6A9E64500, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		ViveController_set_trackpadTouched_m3B02E000B33FB88922960BB744715872A1EC2863_inline(__this, L_8, NULL);
 		// pointer = GetChildControl<PoseControl>("pointer");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_9;
-		L_9 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		ViveController_set_pointer_m30BC04DB020C6DFC549601C8F95FF29C2DDBA5E2_inline(__this, L_9, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_9;
+		L_9 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		ViveController_set_pointer_mCE355F5FAD837FFE8481AA1901532DDC63D998D4_inline(__this, L_9, NULL);
 		// pointerPosition = GetChildControl<Vector3Control>("pointerPosition");
 		Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* L_10;
 		L_10 = InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418(__this, _stringLiteralBAB78FE52E1FDB7FF399F8778E6696CD0042FF45, InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
@@ -23942,9 +24240,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveController_FinishSetup_mF12EEF3B201E
 		L_11 = InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4(__this, _stringLiteralF6CFDC1274B766A282F7B3F8F7CCC8BDF8038D7B, InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		ViveController_set_pointerRotation_m01F36DF8B2F8065860B78D11EC2499F91870F616_inline(__this, L_11, NULL);
 		// devicePose = GetChildControl<PoseControl>("devicePose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_12;
-		L_12 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		ViveController_set_devicePose_m9546799763458D3AB46CD0D00900B8B3992DEABD_inline(__this, L_12, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_12;
+		L_12 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		ViveController_set_devicePose_m1E52788C5CBA837C2B120855B30E4F4D32C887C3_inline(__this, L_12, NULL);
 		// isTracked = GetChildControl<ButtonControl>("isTracked");
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_13;
 		L_13 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral29340CC6DE4F0D8CF1A3ADBF57306A53920E648A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
@@ -24588,41 +24886,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_set_menu_mE8541619F5
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::get_devicePose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* KHRSimpleController_get_devicePose_mBE8A72715F0258046B03BF60859A7EDE9094163D (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::get_devicePose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* KHRSimpleController_get_devicePose_mB00C3A4FEE14D773010E5191D9C86EB852E60F81 (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_50;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_50;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_set_devicePose_mDA8AFDE8EA552664A791869E7292A0DBC615379F (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_set_devicePose_m3B249C00CEA397FDB7D58840C81DB1FD4C568ECF (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_50 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_50), (void*)L_0);
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::get_pointer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* KHRSimpleController_get_pointer_m978ED293CA92D0F17FBB7875984F2BBA1FD05051 (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::get_pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* KHRSimpleController_get_pointer_m37FF7ED8EE38B9970E40B3211D83F9C061D807F4 (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CpointerU3Ek__BackingField_51;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CpointerU3Ek__BackingField_51;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_set_pointer_m1C75D93230E0BC692EA773115876AA31C58407F8 (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile/KHRSimpleController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_set_pointer_mAD460A9DA97C33AE9D46E78D86F561B2456E080F (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_51 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_51), (void*)L_0);
 		return;
@@ -24777,7 +25075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_FinishSetup_mE5D1A67
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_m733A504494A27BA6CE88FB8C3628ECFD4DD7FFD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0226F08F1363B72919374BC9F1AABA0AF07295F0);
@@ -24805,13 +25103,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KHRSimpleController_FinishSetup_mE5D1A67
 		L_1 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral0226F08F1363B72919374BC9F1AABA0AF07295F0, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		KHRSimpleController_set_select_m905040370FCA26713A6A3947E5E0F37C84C02BC3_inline(__this, L_1, NULL);
 		// devicePose = GetChildControl<PoseControl>("devicePose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_2;
-		L_2 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		KHRSimpleController_set_devicePose_mDA8AFDE8EA552664A791869E7292A0DBC615379F_inline(__this, L_2, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_2;
+		L_2 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		KHRSimpleController_set_devicePose_m3B249C00CEA397FDB7D58840C81DB1FD4C568ECF_inline(__this, L_2, NULL);
 		// pointer = GetChildControl<PoseControl>("pointer");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_3;
-		L_3 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		KHRSimpleController_set_pointer_m1C75D93230E0BC692EA773115876AA31C58407F8_inline(__this, L_3, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_3;
+		L_3 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		KHRSimpleController_set_pointer_mAD460A9DA97C33AE9D46E78D86F561B2456E080F_inline(__this, L_3, NULL);
 		// isTracked = GetChildControl<ButtonControl>("isTracked");
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_4;
 		L_4 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral29340CC6DE4F0D8CF1A3ADBF57306A53920E648A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
@@ -25567,41 +25865,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_set_squeezePressed_mE9A1F74
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::get_devicePose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* HoloLensHand_get_devicePose_mE74BBDF377FA54113D4764FC527B8E9CC7627F9D (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::get_devicePose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* HoloLensHand_get_devicePose_m4FD39D674E8EC647F74AA30F18F363EEB9358088 (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_52;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_52;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_set_devicePose_mDED3BA17455E92A3F00C187AA156E4B257412C06 (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_set_devicePose_m19E6C6E3CF7D04AD6EF67707A67123AB7EA957CE (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_52 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_52), (void*)L_0);
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::get_pointer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* HoloLensHand_get_pointer_mAC0AB8FDFDF0346960061F49D7AB2AFAFFB9343E (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::get_pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* HoloLensHand_get_pointer_m03CE0924A23152142743D3DB42AE852D076EEE3A (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CpointerU3Ek__BackingField_53;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CpointerU3Ek__BackingField_53;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_set_pointer_mC11D31F6488E02E386CC32B7D8FD34F772A52B35 (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction/HoloLensHand::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_set_pointer_mB9C69FFC3C34D9261289D1CC0C9A857785CAA302 (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_53 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_53), (void*)L_0);
 		return;
@@ -25736,7 +26034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_FinishSetup_m39C786D046D41C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisAxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_mE395247B4A734866EFF7A908510EEF5B2CFE3841_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0226F08F1363B72919374BC9F1AABA0AF07295F0);
@@ -25773,13 +26071,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HoloLensHand_FinishSetup_m39C786D046D41C
 		L_3 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteralB534BB56A62D58AD5BB8CF7EFA2BE60EFB1553DA, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		HoloLensHand_set_squeezePressed_mE9A1F74616800FF0B5F8C75A5AD44F59FEE2FDD8_inline(__this, L_3, NULL);
 		// devicePose = GetChildControl<PoseControl>("devicePose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_4;
-		L_4 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		HoloLensHand_set_devicePose_mDED3BA17455E92A3F00C187AA156E4B257412C06_inline(__this, L_4, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_4;
+		L_4 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		HoloLensHand_set_devicePose_m19E6C6E3CF7D04AD6EF67707A67123AB7EA957CE_inline(__this, L_4, NULL);
 		// pointer = GetChildControl<PoseControl>("pointer");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_5;
-		L_5 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		HoloLensHand_set_pointer_mC11D31F6488E02E386CC32B7D8FD34F772A52B35_inline(__this, L_5, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_5;
+		L_5 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		HoloLensHand_set_pointer_mB9C69FFC3C34D9261289D1CC0C9A857785CAA302_inline(__this, L_5, NULL);
 		// isTracked = GetChildControl<ButtonControl>("isTracked");
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_6;
 		L_6 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral29340CC6DE4F0D8CF1A3ADBF57306A53920E648A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
@@ -27143,41 +27441,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_set_touchpadTouched
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::get_devicePose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* WMRSpatialController_get_devicePose_m8CE6C69BB1A285A0280A68B38B5B9CCC1B9C7F3F (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::get_devicePose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* WMRSpatialController_get_devicePose_mB8AFD5292515B99588B23D015BBC6B4A4BA85C74 (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_58;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_58;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_set_devicePose_m33C65D94E660ED672BC06D5637F788D2952EA491 (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_set_devicePose_mDA804F37F60E61B4CE235D0582C0C5E017415DBA (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_58 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_58), (void*)L_0);
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::get_pointer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* WMRSpatialController_get_pointer_m9D745C9FF419F53B6D9385F7F239E677E5F62C3C (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::get_pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* WMRSpatialController_get_pointer_m925441E6BFE5C1FC54CA3B78035F85118237B186 (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CpointerU3Ek__BackingField_59;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CpointerU3Ek__BackingField_59;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_set_pointer_m72E0B7242077F8E83C60BC0BA3162E3317EB5056 (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile/WMRSpatialController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_set_pointer_mF962DCE47D42EE22C4FB85F72753FF0E0117B560 (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_59 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_59), (void*)L_0);
 		return;
@@ -27333,7 +27631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_FinishSetup_m0CB893
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_m733A504494A27BA6CE88FB8C3628ECFD4DD7FFD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_m3957D0D8F6F298173F867E33A3E5ED0F9A591F85_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
@@ -27402,13 +27700,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WMRSpatialController_FinishSetup_m0CB893
 		L_9 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteralF64BD2E3B35D211DDDF5000ED8CE421EA8EDD07A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		WMRSpatialController_set_touchpadTouched_m7881BC2F92B81FFEF53C77985F7E29117FEC587C_inline(__this, L_9, NULL);
 		// devicePose = GetChildControl<PoseControl>("devicePose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_10;
-		L_10 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		WMRSpatialController_set_devicePose_m33C65D94E660ED672BC06D5637F788D2952EA491_inline(__this, L_10, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_10;
+		L_10 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		WMRSpatialController_set_devicePose_mDA804F37F60E61B4CE235D0582C0C5E017415DBA_inline(__this, L_10, NULL);
 		// pointer = GetChildControl<PoseControl>("pointer");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_11;
-		L_11 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		WMRSpatialController_set_pointer_m72E0B7242077F8E83C60BC0BA3162E3317EB5056_inline(__this, L_11, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_11;
+		L_11 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		WMRSpatialController_set_pointer_mF962DCE47D42EE22C4FB85F72753FF0E0117B560_inline(__this, L_11, NULL);
 		// isTracked = GetChildControl<ButtonControl>("isTracked");
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_12;
 		L_12 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral29340CC6DE4F0D8CF1A3ADBF57306A53920E648A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
@@ -29350,41 +29648,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_set_thumbrestTouch
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::get_devicePose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* OculusTouchController_get_devicePose_m27A2817495CCC7328B51F6F9F5C1A04D16FE2439 (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::get_devicePose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* OculusTouchController_get_devicePose_mC351B33CA0D69B959B1D5B502AEC6C4B21A9C04E (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_62;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_62;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_set_devicePose_m33FEBD3FB246168752F99E644024E8D3E972D051 (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_set_devicePose_m196C6D26091F77A2938B83D671B738691C6BBD5F (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_62 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_62), (void*)L_0);
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::get_pointer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* OculusTouchController_get_pointer_m89061AD4D56BFA1EB480A25BBBCA1EE3382E17D9 (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::get_pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* OculusTouchController_get_pointer_mFDEB177EBABF60633FED5FD0BA36C6031DCC385E (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CpointerU3Ek__BackingField_63;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CpointerU3Ek__BackingField_63;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_set_pointer_m42F7F993445694FD46655941F4DA0A87A5583C7D (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile/OculusTouchController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_set_pointer_mF054C318BE09F667C53B87D061B7EA6F81EAEFEC (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_63 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_63), (void*)L_0);
 		return;
@@ -29540,7 +29838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_FinishSetup_mA1AED
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_m733A504494A27BA6CE88FB8C3628ECFD4DD7FFD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_m3957D0D8F6F298173F867E33A3E5ED0F9A591F85_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
@@ -29629,13 +29927,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusTouchController_FinishSetup_mA1AED
 		L_13 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteralA0514E43DC3FE9FF02EA1029B11ACBA5579C5FD6, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		OculusTouchController_set_thumbrestTouched_m9BF86704CAE5AC2AADC4F5180974045203C40F7F_inline(__this, L_13, NULL);
 		// devicePose = GetChildControl<PoseControl>("devicePose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_14;
-		L_14 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		OculusTouchController_set_devicePose_m33FEBD3FB246168752F99E644024E8D3E972D051_inline(__this, L_14, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_14;
+		L_14 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		OculusTouchController_set_devicePose_m196C6D26091F77A2938B83D671B738691C6BBD5F_inline(__this, L_14, NULL);
 		// pointer = GetChildControl<PoseControl>("pointer");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_15;
-		L_15 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		OculusTouchController_set_pointer_m42F7F993445694FD46655941F4DA0A87A5583C7D_inline(__this, L_15, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_15;
+		L_15 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		OculusTouchController_set_pointer_mF054C318BE09F667C53B87D061B7EA6F81EAEFEC_inline(__this, L_15, NULL);
 		// isTracked = GetChildControl<ButtonControl>("isTracked");
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_16;
 		L_16 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral29340CC6DE4F0D8CF1A3ADBF57306A53920E648A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
@@ -31715,41 +32013,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_set_trackpadForce_m
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::get_devicePose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ValveIndexController_get_devicePose_m948847A93F5A20A2882EE177C31F4D386F7EC735 (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::get_devicePose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ValveIndexController_get_devicePose_m531ACDD1EB12E69BB8A16F602932BEFCF8CE893A (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_66;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CdevicePoseU3Ek__BackingField_66;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_devicePose(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_set_devicePose_m89579A31B10975C1E453A99172A55812DE5BD37F (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_set_devicePose_m3A93EFC83875C36CC48C64D8E18E07D6C4625994 (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_66 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_66), (void*)L_0);
 		return;
 	}
 }
-// UnityEngine.XR.OpenXR.Input.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::get_pointer()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ValveIndexController_get_pointer_mE3DB1AFAD3DEB46EFBA5B28D23BF35E272893DDE (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, const RuntimeMethod* method) 
+// UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::get_pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ValveIndexController_get_pointer_mA24CBACB99D13D2A0151280E25E89BD338A9659D (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = __this->___U3CpointerU3Ek__BackingField_67;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = __this->___U3CpointerU3Ek__BackingField_67;
 		return L_0;
 	}
 }
-// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_pointer(UnityEngine.XR.OpenXR.Input.PoseControl)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_set_pointer_mB8F0B80E957CCA9ADDBCDA4C3CDB3BB6976DB56C (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+// System.Void UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile/ValveIndexController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_set_pointer_m7B3834B29974B1420F09B97E0078619B8FD7E594 (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_67 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_67), (void*)L_0);
 		return;
@@ -31905,7 +32203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_FinishSetup_m8AEAEC
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisHapticControl_t55C6C8AF176B500F8A11E14786537FA0923A5D49_m733A504494A27BA6CE88FB8C3628ECFD4DD7FFD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisIntegerControl_tA24544EFF42204852F638FF5147F754962C997AB_m87D5D6574BD57F88D41DDE18D17933360E255297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisQuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1_m6F3533847D96A9AD4363B88D2D912D7ADCE096C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432_m3957D0D8F6F298173F867E33A3E5ED0F9A591F85_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputControl_GetChildControl_TisVector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A_mD3B77ED4A28875CD650D600E82A0E4C1E9EBD418_RuntimeMethod_var);
@@ -32014,13 +32312,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValveIndexController_FinishSetup_m8AEAEC
 		L_17 = InputControl_GetChildControl_TisAxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_mE395247B4A734866EFF7A908510EEF5B2CFE3841(__this, _stringLiteral3695EBDA6F8B5C617BDA3771BFB4AC68FB956407, InputControl_GetChildControl_TisAxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7_mE395247B4A734866EFF7A908510EEF5B2CFE3841_RuntimeMethod_var);
 		ValveIndexController_set_trackpadForce_mBF65ED356A0EFA5B90025E13678C61DDE856E123_inline(__this, L_17, NULL);
 		// devicePose = GetChildControl<PoseControl>("devicePose");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_18;
-		L_18 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		ValveIndexController_set_devicePose_m89579A31B10975C1E453A99172A55812DE5BD37F_inline(__this, L_18, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_18;
+		L_18 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral46C52D35A125250F5FBD7AAB8CD2F6E82177916E, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		ValveIndexController_set_devicePose_m3A93EFC83875C36CC48C64D8E18E07D6C4625994_inline(__this, L_18, NULL);
 		// pointer = GetChildControl<PoseControl>("pointer");
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_19;
-		L_19 = InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3_m93B26874B5B21BFD7C0B24D12029EBB73B0CB317_RuntimeMethod_var);
-		ValveIndexController_set_pointer_mB8F0B80E957CCA9ADDBCDA4C3CDB3BB6976DB56C_inline(__this, L_19, NULL);
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_19;
+		L_19 = InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E(__this, _stringLiteral0D74755D51876350D4B4382E014E2E93AD3D3B73, InputControl_GetChildControl_TisPoseControl_t28571DE0327FBB52F360251074D1DA294A197862_m7CFE3EFB8FB4FE6D93868C97F05FE58AACA38F1E_RuntimeMethod_var);
+		ValveIndexController_set_pointer_m7B3834B29974B1420F09B97E0078619B8FD7E594_inline(__this, L_19, NULL);
 		// isTracked = GetChildControl<ButtonControl>("isTracked");
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_20;
 		L_20 = InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044(__this, _stringLiteral29340CC6DE4F0D8CF1A3ADBF57306A53920E648A, InputControl_GetChildControl_TisButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_m37B3269440E54D5C867480E334993426D47F9044_RuntimeMethod_var);
@@ -32587,11 +32885,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OpenXRFeature_set_requiredFe
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EyeGazeDevice_set_pose_mB78DA36A73720DF4C7DC721645F308F936990CD8_inline (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EyeGazeDevice_set_pose_mBB7B3DBE8C1D8A98E043F286F4A46BF455500593_inline (EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CposeU3Ek__BackingField_44 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CposeU3Ek__BackingField_44), (void*)L_0);
 		return;
@@ -32687,11 +32985,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_trackpadT
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointer_m30BC04DB020C6DFC549601C8F95FF29C2DDBA5E2_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointer_mCE355F5FAD837FFE8481AA1901532DDC63D998D4_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_58 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_58), (void*)L_0);
 		return;
@@ -32717,11 +33015,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_pointerRo
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_devicePose_m9546799763458D3AB46CD0D00900B8B3992DEABD_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveController_set_devicePose_m1E52788C5CBA837C2B120855B30E4F4D32C887C3_inline (ViveController_tBB6AEEC1BA185F7CAB12FA28626CE0B274D74381* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_57 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_57), (void*)L_0);
 		return;
@@ -32797,21 +33095,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_sele
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_devicePose_mDA8AFDE8EA552664A791869E7292A0DBC615379F_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_devicePose_m3B249C00CEA397FDB7D58840C81DB1FD4C568ECF_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_50 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_50), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_pointer_m1C75D93230E0BC692EA773115876AA31C58407F8_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KHRSimpleController_set_pointer_mAD460A9DA97C33AE9D46E78D86F561B2456E080F_inline (KHRSimpleController_tB00DD522469D50EB8AF803A5A069523694CFAB28* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_51 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_51), (void*)L_0);
 		return;
@@ -32927,21 +33225,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_squeezePres
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_devicePose_mDED3BA17455E92A3F00C187AA156E4B257412C06_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_devicePose_m19E6C6E3CF7D04AD6EF67707A67123AB7EA957CE_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_52 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_52), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_pointer_mC11D31F6488E02E386CC32B7D8FD34F772A52B35_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HoloLensHand_set_pointer_mB9C69FFC3C34D9261289D1CC0C9A857785CAA302_inline (HoloLensHand_t57D61FFDF7947882A1C4EC7CF5CB707609B93354* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_53 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_53), (void*)L_0);
 		return;
@@ -33107,21 +33405,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_tou
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_devicePose_m33C65D94E660ED672BC06D5637F788D2952EA491_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_devicePose_mDA804F37F60E61B4CE235D0582C0C5E017415DBA_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_58 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_58), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_pointer_m72E0B7242077F8E83C60BC0BA3162E3317EB5056_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WMRSpatialController_set_pointer_mF962DCE47D42EE22C4FB85F72753FF0E0117B560_inline (WMRSpatialController_tB5C0AFF92881F0929F624D1CE40EFB4FBADD6801* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_59 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_59), (void*)L_0);
 		return;
@@ -33337,21 +33635,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_th
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_devicePose_m33FEBD3FB246168752F99E644024E8D3E972D051_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_devicePose_m196C6D26091F77A2938B83D671B738691C6BBD5F_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_62 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_62), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_pointer_m42F7F993445694FD46655941F4DA0A87A5583C7D_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OculusTouchController_set_pointer_mF054C318BE09F667C53B87D061B7EA6F81EAEFEC_inline (OculusTouchController_t8FA9BF7C66DA283CCB11A1761347C0563A776909* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_63 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_63), (void*)L_0);
 		return;
@@ -33607,21 +33905,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_tra
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_devicePose_m89579A31B10975C1E453A99172A55812DE5BD37F_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_devicePose_m3A93EFC83875C36CC48C64D8E18E07D6C4625994_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl devicePose { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CdevicePoseU3Ek__BackingField_66 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CdevicePoseU3Ek__BackingField_66), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_pointer_mB8F0B80E957CCA9ADDBCDA4C3CDB3BB6976DB56C_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* ___0_value, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValveIndexController_set_pointer_m7B3834B29974B1420F09B97E0078619B8FD7E594_inline (ValveIndexController_tD07C05DA03A885AD4AB22D7BC5744CA8499FBFE3* __this, PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public PoseControl pointer { get; private set; }
-		PoseControl_t91437AFF2C633EDDA720FB429D7BAD3C8DF97FC3* L_0 = ___0_value;
+		PoseControl_t28571DE0327FBB52F360251074D1DA294A197862* L_0 = ___0_value;
 		__this->___U3CpointerU3Ek__BackingField_67 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpointerU3Ek__BackingField_67), (void*)L_0);
 		return;

@@ -1049,6 +1049,8 @@ struct InvokerFuncInvoker3<R, T1*, T2, T3*>
 struct Action_1_tA4CC4B05C836AB92F811D67AC960A6ED20CCCB7B;
 // System.Action`1<UnityEngine.UIElements.MeshGenerationContext>
 struct Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B;
+// System.Action`1<UnityEngine.UILineInfo>
+struct Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C;
 // System.Action`1<UnityEngine.UIVertex>
 struct Action_1_t1F149523898B0E3185EF5726203627492497D292;
 // System.Action`1<System.UInt16>
@@ -1121,6 +1123,8 @@ struct Action_1_t382B605C2C5668A25F075BE1F415718CF3C38FF7;
 struct Action_1_tCA07E7CAE14E2DB6F47853EE259BC57E86EDE6FE;
 // System.Action`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
 struct Action_1_tCCB66B182EF6A3D43A5463760EBBB99D536A2C70;
+// System.Action`1<Lean.Touch.LeanSelectableByFinger/SelectedPair>
+struct Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD;
 // System.Action`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
 struct Action_1_tF34E98A1D6265F1CFEBB4CE8F3706944F943CAE3;
 // System.Action`1<Normal.Realtime.RealtimeViewModel/CachedDeltaUpdate>
@@ -1527,6 +1531,10 @@ struct InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5;
 struct InputStateHistory_tF2145C4E34E0E3AC84270533F58F047D6E28A480;
 // System.Linq.Expressions.Interpreter.Instruction
 struct Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998;
+// Lean.Touch.LeanFinger
+struct LeanFinger_t26AAB32CCAF9C1785BDCF4BAB1F58A2AEE90F77D;
+// Lean.Touch.LeanSelectByFinger
+struct LeanSelectByFinger_t0DC0EB7297D9A85D0011C2B6A85ED2FEA32D85BC;
 // System.Threading.ManualResetEvent
 struct ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158;
 // UnityEngine.Material
@@ -3809,6 +3817,19 @@ struct TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7
 	uint64_t ___m_SubId2_3;
 };
 
+// UnityEngine.UILineInfo
+struct UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC 
+{
+	// System.Int32 UnityEngine.UILineInfo::startCharIdx
+	int32_t ___startCharIdx_0;
+	// System.Int32 UnityEngine.UILineInfo::height
+	int32_t ___height_1;
+	// System.Single UnityEngine.UILineInfo::topY
+	float ___topY_2;
+	// System.Single UnityEngine.UILineInfo::leading
+	float ___leading_3;
+};
+
 // System.UInt16
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
@@ -4367,6 +4388,27 @@ struct TreeViewItemWrapper_tFA593EC4B06E0C963C0EAA9C18DDC99EEDC05D1F_marshaled_c
 {
 	int32_t ___depth_0;
 	RuntimeObject* ___item_1;
+};
+
+// Lean.Touch.LeanSelectableByFinger/SelectedPair
+struct SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 
+{
+	// Lean.Touch.LeanSelectByFinger Lean.Touch.LeanSelectableByFinger/SelectedPair::Select
+	LeanSelectByFinger_t0DC0EB7297D9A85D0011C2B6A85ED2FEA32D85BC* ___Select_0;
+	// Lean.Touch.LeanFinger Lean.Touch.LeanSelectableByFinger/SelectedPair::Finger
+	LeanFinger_t26AAB32CCAF9C1785BDCF4BAB1F58A2AEE90F77D* ___Finger_1;
+};
+// Native definition for P/Invoke marshalling of Lean.Touch.LeanSelectableByFinger/SelectedPair
+struct SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880_marshaled_pinvoke
+{
+	LeanSelectByFinger_t0DC0EB7297D9A85D0011C2B6A85ED2FEA32D85BC* ___Select_0;
+	LeanFinger_t26AAB32CCAF9C1785BDCF4BAB1F58A2AEE90F77D* ___Finger_1;
+};
+// Native definition for COM marshalling of Lean.Touch.LeanSelectableByFinger/SelectedPair
+struct SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880_marshaled_com
+{
+	LeanSelectByFinger_t0DC0EB7297D9A85D0011C2B6A85ED2FEA32D85BC* ___Select_0;
+	LeanFinger_t26AAB32CCAF9C1785BDCF4BAB1F58A2AEE90F77D* ___Finger_1;
 };
 
 // UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
@@ -7435,6 +7477,11 @@ struct LayoutMatcher_t0D8F5E32A7C82BC292EBA0FAA3EB2D9F1F72A0A6_marshaled_com
 	InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_marshaled_com ___deviceMatcher_1;
 };
 
+// System.Action`1<UnityEngine.UILineInfo>
+struct Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C  : public MulticastDelegate_t
+{
+};
+
 // System.Action`1<UnityEngine.UIVertex>
 struct Action_1_t1F149523898B0E3185EF5726203627492497D292  : public MulticastDelegate_t
 {
@@ -7612,6 +7659,11 @@ struct Action_1_tCA07E7CAE14E2DB6F47853EE259BC57E86EDE6FE  : public MulticastDel
 
 // System.Action`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
 struct Action_1_tCCB66B182EF6A3D43A5463760EBBB99D536A2C70  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<Lean.Touch.LeanSelectableByFinger/SelectedPair>
+struct Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD  : public MulticastDelegate_t
 {
 };
 
@@ -8716,6 +8768,10 @@ struct IntPtr_t_StaticFields
 
 // Vuforia.TargetStatus
 
+// UnityEngine.UILineInfo
+
+// UnityEngine.UILineInfo
+
 // System.UInt16
 
 // System.UInt16
@@ -8872,6 +8928,10 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 // UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
 
 // UnityEngine.UIElements.InternalTreeView/TreeViewItemWrapper
+
+// Lean.Touch.LeanSelectableByFinger/SelectedPair
+
+// Lean.Touch.LeanSelectableByFinger/SelectedPair
 
 // UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding
 
@@ -9266,6 +9326,10 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 
 // UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/LayoutMatcher
 
+// System.Action`1<UnityEngine.UILineInfo>
+
+// System.Action`1<UnityEngine.UILineInfo>
+
 // System.Action`1<UnityEngine.UIVertex>
 
 // System.Action`1<UnityEngine.UIVertex>
@@ -9409,6 +9473,10 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 // System.Action`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
 
 // System.Action`1<UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>
+
+// System.Action`1<Lean.Touch.LeanSelectableByFinger/SelectedPair>
+
+// System.Action`1<Lean.Touch.LeanSelectableByFinger/SelectedPair>
 
 // System.Action`1<UnityEngine.XR.OpenXR.Input.OpenXRInput/SerializedBinding>
 
@@ -13091,6 +13159,84 @@ inline void AnimationDataSet_2_GetActivePropertiesForElement_m79F46AA296D9A215DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+void Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_Multicast(Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___0_obj, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* currentDelegate = reinterpret_cast<Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_OpenInst(Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_OpenStatic(Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_OpenStaticInvoker(Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC >::Invoke(__this->___method_ptr_0, method, NULL, ___0_obj);
+}
+void Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_ClosedStaticInvoker(Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_obj);
+}
+// System.Void System.Action`1<UnityEngine.UILineInfo>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m3D0E29640D8C5C47DC521E92C28D2E50DC7F5512_gshared (Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_Multicast;
+}
+// System.Void System.Action`1<UnityEngine.UILineInfo>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m6A5FDF7FE3DE3CE36942837160308BB7D10AC2F6_gshared (Action_1_t59246BF77C1095A0F51FE1BCDD0A2A914173131C* __this, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 void Action_1_Invoke_mFD1F42F289230C3DFE6775BC238851D272ECDBC9_Multicast(Action_1_t1F149523898B0E3185EF5726203627492497D292* __this, UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 ___0_obj, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
@@ -15889,6 +16035,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m3B947ADA2E6DCC95CB99EB23
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m081F2EDB868BCFE04BB77EE3AFFE17D82026A5E6_gshared (Action_1_tCCB66B182EF6A3D43A5463760EBBB99D536A2C70* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_Multicast(Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___0_obj, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* currentDelegate = reinterpret_cast<Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_OpenInst(Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_OpenStatic(Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___0_obj, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_obj, method);
+}
+void Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_OpenStaticInvoker(Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 >::Invoke(__this->___method_ptr_0, method, NULL, ___0_obj);
+}
+void Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_ClosedStaticInvoker(Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___0_obj, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_obj);
+}
+// System.Void System.Action`1<Lean.Touch.LeanSelectableByFinger/SelectedPair>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m98B6FB2174EF57A85C8FD6A49EAFE9673B19A59B_gshared (Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___0_object == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_Multicast;
+}
+// System.Void System.Action`1<Lean.Touch.LeanSelectableByFinger/SelectedPair>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mC24015F80EE086E06A92248BA40EB53979063ED5_gshared (Action_1_t17F9E1FDC4572BB8524CA887FC054FD69E82A6DD* __this, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880 ___0_obj, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, SelectedPair_t9E1A015CE1D978091C2A2D4A576CDE545D1C7880, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 #ifdef __clang__
