@@ -44,7 +44,7 @@ public class Draggable : MonoBehaviour
             }
             else if (touch0.phase == TouchPhase.Moved || touch1.phase == TouchPhase.Moved)
             {
-                OnRotation(touch0, touch1);
+               RotateObjectOnKeyPress();
             }
             else if (touch0.phase == TouchPhase.Ended || touch1.phase == TouchPhase.Ended)
             {

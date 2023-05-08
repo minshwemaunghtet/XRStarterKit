@@ -8,8 +8,8 @@ public class PriceTrackerUI : MonoBehaviour
     [SerializeField] private PriceTracker priceTracker;
 
     [Header("UI Elements")]
-    // [SerializeField] private TextMeshProUGUI totalNumObjectsText;
-    // [SerializeField] private TextMeshProUGUI totalPriceText;
+    [SerializeField] private TextMeshProUGUI totalNumObjectsText;
+    [SerializeField] private TextMeshProUGUI totalPriceText;
     [SerializeField] private TextMeshProUGUI totalPriceChairsText;
     [SerializeField] private TextMeshProUGUI totalPriceTablesText;
     // [SerializeField] private TextMeshProUGUI totalPriceBenchText;
@@ -32,8 +32,8 @@ public class PriceTrackerUI : MonoBehaviour
 
     private void UpdateUI()
     {
-    //     totalNumObjectsText.text = priceTracker.TotalNumObjects.ToString();
-    //     totalPriceText.text = priceTracker.TotalPrice.ToString();
+        totalNumObjectsText.text = priceTracker.TotalNumObjects.ToString();
+        totalPriceText.text = priceTracker.TotalPrice.ToString();
         totalPriceChairsText.text = priceTracker.TotalPriceChairs.ToString();
         totalPriceTablesText.text = priceTracker.TotalPriceTables.ToString();
         // totalPriceBenchText.text = priceTracker.TotalPriceBench.ToString();
