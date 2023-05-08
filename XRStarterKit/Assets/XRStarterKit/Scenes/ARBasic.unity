@@ -191,54 +191,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &57339400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 57339402}
-  - component: {fileID: 57339401}
-  m_Layer: 0
-  m_Name: ConcreteSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &57339401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57339400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db3f7406e8f983345bb9d08378c5520e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cubePrefab: {fileID: 7855714043227750253, guid: 04e2402e2c7539745afca628d10df447, type: 3}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 1
---- !u!4 &57339402
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57339400}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 320, y: 255, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &267574620 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 51699358317765553, guid: a3dafd73bced8044d80937dd90cd144f, type: 3}
@@ -599,6 +551,74 @@ MonoBehaviour:
   mDatasetName: Vuforia/pgh233.xml
   mCastedBehaviour: {fileID: 844946313}
   mType: 1
+--- !u!1001 &1105446669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4054750432710671508, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_Name
+      value: ConcreteSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054750432710671510, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+--- !u!114 &1105446670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4054750432710671509, guid: 53ad185d26af9a549b592106a3863733, type: 3}
+  m_PrefabInstance: {fileID: 1105446669}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db3f7406e8f983345bb9d08378c5520e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1350807890 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8003868585667474795, guid: a94e97fb7ffa98844bb1139980b0bedd, type: 3}
@@ -718,9 +738,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LeanTouchEnabler, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1105446670}
+        m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
+        m_MethodName: DisableSpawning
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1255,6 +1275,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 267574620}
         m_TargetAssemblyTypeName: FenceSpawner, Assembly-CSharp
+        m_MethodName: DisableSpawning
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1105446670}
+        m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
         m_MethodName: DisableSpawning
         m_Mode: 1
         m_Arguments:
@@ -1876,6 +1908,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1350807890}
         m_TargetAssemblyTypeName: PlaceObject, Assembly-CSharp
+        m_MethodName: DisableSpawning
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1105446670}
+        m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
         m_MethodName: DisableSpawning
         m_Mode: 1
         m_Arguments:
@@ -2788,7 +2832,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 57339401}
+      - m_Target: {fileID: 1105446670}
         m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
         m_MethodName: ToggleSpawning
         m_Mode: 2
@@ -3182,6 +3226,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1105446670}
+        m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
+        m_MethodName: DisableSpawning
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6919847688843848697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3344,6 +3400,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6919847688936760837}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1105446670}
+        m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
+        m_MethodName: DisableSpawning
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3620,6 +3688,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 267574620}
         m_TargetAssemblyTypeName: FenceSpawner, Assembly-CSharp
+        m_MethodName: DisableSpawning
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1105446670}
+        m_TargetAssemblyTypeName: CubeSpawner, Assembly-CSharp
         m_MethodName: DisableSpawning
         m_Mode: 1
         m_Arguments:
